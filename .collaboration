@@ -239,5 +239,35 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "ShareCommandContainer/站内消息",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-18T17:10:17.9718264+08:00",
+    "ModuleType": 36
+  },
+  {
+    "ModuleName": "ShareCommandContainers/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-18T17:10:17.9726883+08:00",
+    "ModuleType": 35
+  },
+  {
+    "ModuleName": "ShareCommandContainer/站内通知",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-18T17:10:17.9727053+08:00",
+    "ModuleType": 36
   }
 ]
