@@ -281,26 +281,6 @@
     "ModuleType": 3
   },
   {
-    "ModuleName": "MasterPages/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-18T17:11:26.7773656+08:00",
-    "ModuleType": 24
-  },
-  {
-    "ModuleName": "MasterPages/导入文件夹1/PC母版",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-18T17:11:26.7773695+08:00",
-    "ModuleType": 24
-  },
-  {
     "ModuleName": "MasterPCPage/报表菜单导航",
     "State": 3,
     "LockedBy": {
