@@ -36,24 +36,9 @@
           "DesignLengthInPixel": 40.0
         }
       },
-      "16": {
+      "10": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 32.0
-        }
-      },
-      "17": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 32.0
-        }
-      },
-      "19": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 32.0
-        }
-      },
-      "22": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
+          "DesignLengthInPixel": 274.0,
           "Mode": 2,
           "MinLength": {
             "Unit": 1
@@ -63,14 +48,14 @@
           }
         }
       },
-      "24": {
+      "12": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 35.0,
           "Mode": 1
         }
       }
     },
-    "Count": 27
+    "Count": 15
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -205,7 +190,7 @@
         "TableName": "客户信息",
         "RowIndex": 8,
         "ColumnIndex": 2,
-        "RowCount": 15,
+        "RowCount": 3,
         "ColumnCount": 44,
         "TopCondition": null,
         "ListViewStyleName": "带表框表格",
@@ -297,7 +282,7 @@
         "UseCellForeColor": true
       }
     },
-    "24,2": {
+    "12,2": {
       "CellType": {
         "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
         "ListviewName": "表格1",
@@ -458,19 +443,7 @@
       "9,46": 5,
       "10,46": 5,
       "11,46": 5,
-      "12,46": 5,
-      "13,46": 5,
-      "14,46": 5,
-      "15,46": 5,
-      "16,46": 5,
-      "17,46": 5,
-      "18,46": 5,
-      "19,46": 5,
-      "20,46": 5,
-      "21,46": 5,
-      "22,46": 5,
-      "23,46": 5,
-      "24,46": 5
+      "12,46": 5
     },
     "SheetStyle": {
       "FontFamily": 0
@@ -478,7 +451,7 @@
   },
   "Spans": [
     "2,2,1,21",
-    "24,2,1,44",
+    "12,2,1,44",
     "2,24,1,4",
     "6,42,1,4",
     "9,2,1,2",
@@ -487,9 +460,9 @@
     "9,24,1,5",
     "9,29,1,6",
     "9,35,1,7",
-    "10,2,13,44",
     "9,42,1,2",
     "9,44,1,2",
+    "10,2,1,44",
     "8,2,1,2",
     "8,4,1,12",
     "8,16,1,8",
@@ -532,7 +505,7 @@
         "Fill": "Background 1 -5"
       },
       "IsAutomaticFill": false,
-      "Size": "960,627"
+      "Size": "960,605"
     },
     {
       "Name": "6f08257c-4eeb-4014-a154-57addc368c39.png",
@@ -552,7 +525,7 @@
       },
       "IsAutomaticFill": false,
       "Location": "20,112",
-      "Size": "920,495"
+      "Size": "920,473"
     },
     {
       "Name": "BackgroundPicture5",
@@ -565,4 +538,4 @@
       "Size": "4,24"
     }
   ]
-}//RI+u2lmP1sZzxB955a5vuymQCS+pGo5C35CTAo7yc9gMO7zzZnlA3va8PYRt1GEYy3I/F8+ZEqEpW76H17HuI6N7pKq6YimVkiY+KqbC6llDCropoDZzVIlrwtsBV8qwFjEkZZyKJXIWmLKVtRH28xRke02JERNZrWZ5qIGlITNCIu7eMAX69uujP/ryiHvXSZ7Tw5HzmVGJWfyX9804wMA0KqxtEHOab4keLA2oehR+eerhlsVRBvEvihEuSQaoWqT2DEHmIq2xogLUwb34THdJLQDXG3VGEXR0huGY0KgwPEmlJz0GFlDb7nWhP54RK52C4zSu3/2PUUkjE6ZnRULD4+cSBuFor8h8WrdOpeSreFrt0/rfK9sKcsDb01DiLGBaob2J6gH8aP9rsTD42yWtzBx9R+HAW6lptPBQB46PiymFdqbaZheRwPWdmZbpbzuOJ9iB/iXC8bkK172U2XGTp40jDLI5SQp3plPZnTdvQR1R4z5LGwNXcNJTpwHFw0YmF1FWkmzZoAwbhYVwL0mqGeBmWuhNwFfCe8v50Z7QV/puBlWuqsMWpgfSmI/a1/xh4eL86Y4dORfNJHJh4Xbw8QsWRlgLwq9PSCjjtwKoRgFu8e40VEEaE7fXL0jueingcmeiHTsBcLTA3W88w8LJT/r4ExGVHIOzZ37Oon9dH+uM1Y5U7l4qC+/VeWo1kDn+pt1aoXAXoEGQ3wWfsceeSHoKU0DQ3eNRSZwtv/Itsb/EOLuSKH52LaZhOWIqPzz77Bq8790yBZSXFE6JmgfZ8K1ph/2aOzQK3vrtKwCEdPcGDsJZN7xaG5WoY1ipQf54CAO1it7oWCCe2v31PgrBoIY09JuDoUbEvAm/tw+MTWMxPqR7J/tfMBCunPlfbZBFkpW+AMHAX0yogKMpig==|920
+}//bz+pNTifH71bZjpJxdA8qZXqIp0SPISxpvzLmJUV9fPW0GhsrEdOLceyLI+DVbsKjh9ZHVyv/t5U2eeqH9YPMcafZNd8xavrzLYeOas5vnDzldd59fzEnXNhZlynXnMo2Ccu+EircDhE8om7jopLo5qslQXKE8Ql9rVpX+Jh4sSiFpJ/4C/V9hfZctPo8ibslusWDhNXsN95+5mjZyZW9PMAqcCJiO09SPn6DUX8wHBCiKRG0jtWsL4Ze+keCqQ35w8R2H2pxl0xf9yVVg9sMCBilq/nrjSKygyBYlij0BLWh6KA2bVpKdTlN7vmSo8cWYe1+lfFcNDjmKgxhXumqkcytr6pIqt9qjtXACSLVPDRcqTxqcQOGVkb65NBTHEHw8/yK5PRGqKFGmxAvhH5fZw+WfQpBPcs04gTiMDL8kRbVQtErJr1D9SaWw0/emPpAkUukFtKktFXHWllqx0tWUfzCDEfI/2Veq2EDG09CExVssBb+3ZLlw+nfPsPkvHpzI0OMD/D6uC7HGd7ROJPN0cjmB5bGlDanq17SSqR+lDl3CRszqjx/EVLslCH94ad9Pc0EuLh+2e9iK7Gtn2fjfSmg+9VIoMglT9K5F23nrtI8vgFR361/frfNh0eSzc/34t8gEjLUcyYtxLbOwWLLX1enuOycdtuI74425ua2lUpOFAYgGMs067hS3aZPkZ3H1J8PLy+ZRY7j+rnQbYFCvGLE1cD9Od0YZ+RHy4uw9oey6zGc0PlWk5Zw9Ay3m6fzmFYeY/Q1DSLdC8cQ+nw2b3giriigMnDzdEuAhH23IYnTKtw4scYD5LNyVnSTTJ6A8Q6W23SgaKAQDB0bsFNLek3CrQTSiRlrIDZMWt54BfmgattSJl4y2T9XcrV/qeTePP/ws0E2Acyd/5k4S/Htw==|920
