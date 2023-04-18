@@ -1,0 +1,1260 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0,
+          "Mode": 1
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 38
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "Count": 57
+  },
+  "Values": {
+    "16,2": "订单列表",
+    "28,2": "订单详情列表",
+    "29,39": "金额"
+  },
+  "Formulas": {
+    "30,39": "AB31*AG31"
+  },
+  "AttachInfos": {
+    "1,48": {
+      "ListViewInfo": {
+        "Name": "表格3",
+        "TableName": "订单表",
+        "RowIndex": 1,
+        "ColumnIndex": 48,
+        "RowCount": 10,
+        "ColumnCount": 9,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "2,48": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "3f8caff6-458b-4d1b-aaf1-3c613e4bd1b3",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "公司名称"
+        }
+      }
+    },
+    "2,53": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "个数",
+        "GUID": "ddad5485-db4e-4e3b-902c-041115b5affe"
+      }
+    },
+    "12,48": {
+      "ListViewInfo": {
+        "Name": "表格4",
+        "TableName": "订单表",
+        "RowIndex": 12,
+        "ColumnIndex": 48,
+        "RowCount": 7,
+        "ColumnCount": 9,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "13,48": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "f4598a6e-e0e9-4999-8a03-7fb01e306aa0",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "公司名称"
+        }
+      }
+    },
+    "13,53": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "总收入",
+        "GUID": "5e32a865-f0bb-4838-bce8-341f9384462b"
+      }
+    },
+    "17,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "订单表",
+        "RowIndex": 17,
+        "ColumnIndex": 1,
+        "RowCount": 8,
+        "ColumnCount": 46,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "客户ID",
+                "GUID": "cc851c00-df4b-4063-b5a3-c10efdb82fa4",
+                "RelationBinding": {
+                  "RelatedTable": "客户信息",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "公司名称"
+                }
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=订单统计!AW32"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "月份",
+                "GUID": "2726e8e4-10b2-4cdb-830d-d9f1a84efbd0"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=订单统计!AW34"
+              }
+            }
+          ],
+          "RelationType": 1
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "带表框表格",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "18,1": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单编号",
+        "GUID": "7099e0a4-e39f-4f7f-8d4b-e5007e088d15"
+      }
+    },
+    "18,9": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "2dee2d4c-9fb9-4150-91b8-4f08fd29ffc6",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "公司名称"
+        }
+      }
+    },
+    "18,16": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单类型",
+        "GUID": "64c06f63-66e2-42a2-9be9-eb559a2a107c"
+      }
+    },
+    "18,22": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "签订时间",
+        "GUID": "44d5d8c8-13ad-4024-8af0-8ac20c86a626"
+      }
+    },
+    "18,30": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "总金额",
+        "GUID": "626dd34e-45ad-46c1-982b-2a1016b80fd1"
+      }
+    },
+    "18,37": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单状态",
+        "GUID": "ba76d943-2d10-4ba5-a8e3-dbbcf5b8f7df"
+      }
+    },
+    "20,48": {
+      "ListViewInfo": {
+        "Name": "表格5",
+        "TableName": "订单表",
+        "RowIndex": 20,
+        "ColumnIndex": 48,
+        "RowCount": 10,
+        "ColumnCount": 9,
+        "TopCondition": null,
+        "ListViewStyleName": "样式1",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "21,48": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "月份",
+        "GUID": "0c304d23-25c8-4f96-aa78-04c854ab0a6d"
+      }
+    },
+    "21,53": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "总收入",
+        "GUID": "c412d598-7697-4dde-9422-8188df789455"
+      }
+    },
+    "26,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pageSize": 4,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "jumper"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "total"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    },
+    "29,1": {
+      "ListViewInfo": {
+        "Name": "表格2",
+        "TableName": "订单详情表",
+        "RowIndex": 29,
+        "ColumnIndex": 1,
+        "RowCount": 8,
+        "ColumnCount": 46,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "订单ID",
+          "MasterTable": "订单表",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "带表框表格",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "30,1": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "物品",
+        "GUID": "24ad2d21-653c-4519-a3ba-5decd1b16f60",
+        "RelationBinding": {
+          "RelatedTable": "物品表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "编号"
+        }
+      }
+    },
+    "30,9": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "物品",
+        "GUID": "431d5182-fccf-4141-acbd-687b324daf9b",
+        "RelationBinding": {
+          "RelatedTable": "物品表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "名称"
+        }
+      }
+    },
+    "30,16": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "物品",
+        "GUID": "ed08569c-9e0c-4bcd-ab5d-a2963e332c5a",
+        "RelationBinding": {
+          "RelatedTable": "物品表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "品牌"
+        }
+      }
+    },
+    "30,23": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "物品",
+        "GUID": "f3e0b57a-8b64-4817-8d68-5ae499add41e",
+        "RelationBinding": {
+          "RelatedTable": "物品表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "单位"
+        }
+      }
+    },
+    "30,27": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "物品",
+        "GUID": "f875a53e-62c9-481a-bfea-982ee2d2dc78",
+        "RelationBinding": {
+          "RelatedTable": "物品表",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "价格"
+        }
+      }
+    },
+    "30,32": {
+      "BindingInfo": {
+        "TableName": "订单详情表",
+        "ColumnName": "数量",
+        "GUID": "c4962d3b-1865-4898-b0db-4d02321811a9"
+      }
+    },
+    "31,48": {
+      "CellComment": {
+        "Comments": "图表类目\r\n"
+      }
+    },
+    "33,48": {
+      "CellComment": {
+        "Comments": "图表日期"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "Background": 2,
+        "TextIndent": 5,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "TextIndent": 5,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Formatter": 5,
+        "TextIndent": 5,
+        "HorizontalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Background 1 0",
+        "Left",
+        "Accent 1 0",
+        " ¥#,##0.00"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "16,1": 0,
+      "16,2": 1,
+      "17,1": 2,
+      "17,2": 3,
+      "17,3": 3,
+      "17,4": 3,
+      "17,5": 3,
+      "17,6": 3,
+      "17,7": 3,
+      "17,8": 3,
+      "17,9": 2,
+      "17,10": 3,
+      "17,11": 3,
+      "17,12": 3,
+      "17,13": 3,
+      "17,14": 3,
+      "17,15": 3,
+      "17,16": 2,
+      "17,17": 3,
+      "17,18": 3,
+      "17,19": 3,
+      "17,20": 3,
+      "17,21": 3,
+      "17,22": 2,
+      "17,23": 3,
+      "17,24": 3,
+      "17,25": 3,
+      "17,26": 3,
+      "17,27": 3,
+      "17,28": 3,
+      "17,29": 3,
+      "17,30": 2,
+      "17,31": 3,
+      "17,32": 3,
+      "17,33": 3,
+      "17,34": 3,
+      "17,35": 3,
+      "17,36": 3,
+      "17,37": 2,
+      "17,38": 3,
+      "17,39": 3,
+      "17,40": 3,
+      "17,41": 3,
+      "17,42": 3,
+      "17,43": 3,
+      "17,44": 3,
+      "17,45": 3,
+      "17,46": 3,
+      "18,1": 4,
+      "18,9": 4,
+      "18,16": 4,
+      "18,22": 4,
+      "18,30": 5,
+      "18,37": 4,
+      "28,1": 0,
+      "28,2": 1,
+      "29,1": 2,
+      "29,2": 3,
+      "29,3": 3,
+      "29,4": 3,
+      "29,5": 3,
+      "29,6": 3,
+      "29,7": 3,
+      "29,8": 3,
+      "29,9": 2,
+      "29,10": 3,
+      "29,11": 3,
+      "29,12": 3,
+      "29,13": 3,
+      "29,14": 3,
+      "29,15": 3,
+      "29,16": 2,
+      "29,17": 3,
+      "29,18": 3,
+      "29,19": 3,
+      "29,20": 3,
+      "29,21": 3,
+      "29,22": 3,
+      "29,23": 2,
+      "29,24": 3,
+      "29,25": 3,
+      "29,26": 3,
+      "29,27": 2,
+      "29,28": 3,
+      "29,29": 3,
+      "29,30": 3,
+      "29,31": 3,
+      "29,32": 2,
+      "29,33": 3,
+      "29,34": 3,
+      "29,35": 3,
+      "29,36": 3,
+      "29,37": 3,
+      "29,38": 3,
+      "29,39": 2,
+      "29,40": 3,
+      "29,41": 3,
+      "29,42": 3,
+      "29,43": 3,
+      "29,44": 3,
+      "29,45": 3,
+      "29,46": 3,
+      "30,1": 4,
+      "30,9": 4,
+      "30,16": 4,
+      "30,23": 4,
+      "30,27": 5,
+      "30,32": 4,
+      "30,39": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,14,14",
+    "1,17,14,14",
+    "1,33,14,14",
+    "18,1,1,8",
+    "18,9,1,7",
+    "18,16,1,6",
+    "18,22,1,8",
+    "18,30,1,7",
+    "18,37,1,10",
+    "30,1,1,8",
+    "30,9,1,7",
+    "30,16,1,7",
+    "30,23,1,4",
+    "30,27,1,5",
+    "30,32,1,7",
+    "30,39,1,8",
+    "2,48,1,5",
+    "2,53,1,4",
+    "13,48,1,5",
+    "13,53,1,4",
+    "21,48,1,5",
+    "21,53,1,4",
+    "31,48,1,9",
+    "33,48,1,9",
+    "26,1,1,46",
+    "3,48,8,9",
+    "14,48,5,9",
+    "31,1,6,46",
+    "19,1,6,46",
+    "22,48,8,9",
+    "1,48,1,5",
+    "1,53,1,4",
+    "12,48,1,5",
+    "12,53,1,4",
+    "17,1,1,8",
+    "17,9,1,7",
+    "17,16,1,6",
+    "17,22,1,8",
+    "17,30,1,7",
+    "17,37,1,10",
+    "20,48,1,5",
+    "20,53,1,4",
+    "29,1,1,8",
+    "29,9,1,7",
+    "29,16,1,7",
+    "29,23,1,4",
+    "29,27,1,5",
+    "29,32,1,7",
+    "29,39,1,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "左侧导航布局",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "BackgroundPicture0",
+      "DisplayName": "背景图8",
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "29,324",
+      "Size": "4,24"
+    },
+    {
+      "Name": "BackgroundPicture1",
+      "DisplayName": "背景图9",
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "29,613",
+      "Size": "4,24"
+    }
+  ],
+  "Charts": [
+    {
+      "ChartType": 22,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart1",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "订单统计",
+            "ListViewName": "表格3",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=订单统计!BB3"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "订单统计",
+          "ListViewName": "表格3",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=订单统计!AW3"
+          }
+        },
+        "DataSourceListviewName": "483c86ce-d2af-47db-98d9-2fe87cfdb495"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartCommand": {
+        "Series": {
+          "SerializeProperty": "系列名称"
+        },
+        "Category": {
+          "SerializeProperty": "类目"
+        },
+        "Value": {
+          "SerializeProperty": "值"
+        },
+        "Commands": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!AW32"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!类目"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "华为",
+            "活字格",
+            "百度",
+            "腾讯",
+            "阿里"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {
+        "Orientation": 0,
+        "Alignment": 6
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            1.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "Name": "个数",
+          "DataLabelSettings": {
+            "ShowValue": true
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 1,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 2,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 3,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 4,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            }
+          ]
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 0",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "21,20",
+      "Size": "276,277"
+    },
+    {
+      "ChartType": 24,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart2",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "订单统计",
+            "ListViewName": "表格4",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=订单统计!BB14"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "订单统计",
+          "ListViewName": "表格4",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=订单统计!AW14"
+          }
+        },
+        "DataSourceListviewName": "f9cf0a91-8852-4bef-8489-5c20a4d942d4"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartCommand": {
+        "Series": {
+          "SerializeProperty": "系列名称"
+        },
+        "Category": {
+          "SerializeProperty": "类目"
+        },
+        "Value": {
+          "SerializeProperty": "值"
+        },
+        "Commands": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!AW32"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!类目"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "华为",
+            "活字格",
+            "百度",
+            "腾讯",
+            "阿里"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {
+        "Orientation": 0,
+        "Alignment": 6
+      },
+      "DataSeries": [
+        {
+          "ChartType": 24,
+          "Values": [
+            70000.0,
+            21660.0,
+            25400.0,
+            70000.0,
+            15800.0
+          ],
+          "Name": "总收入",
+          "DataLabelSettings": {
+            "ShowBubbleSize": false,
+            "ShowCategoryName": false,
+            "ShowPercent": true,
+            "ShowSeriesName": false,
+            "ShowValue": false
+          },
+          "DataLabelStyle": {
+            "IsAutomaticStroke": false,
+            "IsAutomaticFill": false,
+            "StyleInfo": {
+              "Fill": null,
+              "FontFamily": "Body",
+              "FontSize": 14.67,
+              "FontStretch": "Normal",
+              "FontStyle": "Normal",
+              "FontWeight": "Normal",
+              "Foreground": null,
+              "Stroke": null,
+              "StrokeThickness": 1.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 1,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 2,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 3,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 4,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            }
+          ]
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 0",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart2",
+      "Location": "338,15",
+      "Size": "284,284"
+    },
+    {
+      "ChartType": 7,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart3",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "订单统计",
+            "ListViewName": "表格5",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=订单统计!BB22"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "订单统计",
+          "ListViewName": "表格5",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=订单统计!AW22"
+          }
+        },
+        "DataSourceListviewName": "bff06db2-a63d-4970-9b32-6c6f1f539012"
+      },
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartCommand": {
+        "Series": {
+          "SerializeProperty": "系列名称"
+        },
+        "Category": {
+          "SerializeProperty": "类目"
+        },
+        "Value": {
+          "SerializeProperty": "值"
+        },
+        "Commands": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!AW34"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=订单统计!类目"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "2018年1月",
+            "2018年5月",
+            "2019年1月",
+            "2019年2月",
+            "2019年5月",
+            "2021年6月",
+            "2023年2月"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "DataSeries": [
+        {
+          "ChartType": 7,
+          "Values": [
+            10800.0,
+            17400.0,
+            5000.0,
+            51600.0,
+            40000.0,
+            78000.0,
+            60.0
+          ],
+          "Name": "总收入",
+          "MarkerSize": "7,7"
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 0",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart3",
+      "Location": "657,16",
+      "Size": "282,285"
+    }
+  ]
+}//G7+oOq23nuOjclleu0Y+7EP4SJUb1cDm/TPOLEkMj1zM1LFSPm1ozqxx2DkP7XKktViOdXN53zDIwydv8kSK7u2EgGvqqA+7+rujpqJ1B6ND/WapRhqTSYVDnO2ZJPAikuqIZ9oRNSWBoXMvA3EKjDrdLK0TjYtSoJYwjgIhH/pBEfZBUXsKqvURQI97QhoYYqUPPR7OgWg1rmkavqcwj7o8A0oxnB49KNkkPr84QV681o0sAVI9M5Uf8frmNiGLmrclo1wk6R1XGk+nidgNhcWIB+OGw9hzjqeXXtCSyzDxJwYJeloXec012hqSEMnCguWFai7BdtMHe3+yQWJF6VetGYNyfvAMOnEu2EXaQRwEWeV7w6zS7khCbGyYEuStBLQpbpGQbtQPONw0M6/oAHXms7rqHe/DIZuLEHAsRdwKJZ7Oy1XIreUcp0EZN25HvxuH+zHwN4o/Mpq40W6CEBVPmeNA+a88R3agPW/vfBJRXEnZfJQU0Iq+MkR5NO/MjvRIdwEE6sX9fT6N4n5QyJ+GV55tTPf3wcA2Ajy0nEQh+2meujAejG+4B076JPrDQ/dBHoqc8Q+DgceNUKPRF4ggc5GVfuR7vkdovTrV3gvGJ99x9i9d8iXjuARwwManhd5gpuuSCR2KOVdEq1o9MmBgaTKGvAyT2YNZJM5T9RVoFqMFKwh25hibP0MXNFO05aPRHVsuK8R7gsHURp6rewwb4fiTzJI/yyit+duPaci/5ySo7p8+9lYUAFNJglb4hnpq9yWGe5vEyAYx7sCPQAYMdohUyHoTXLdcsn4choctBxjmrN3nIXD680c0hICqJ31GLG+ce3vdGR7cgUfhCGG+kK4b+S9oPVhA7ORf2hn00FkkusUgwx7EzNdENj+sH2fEIYtvcU2Yz/8N741Dkg==|920

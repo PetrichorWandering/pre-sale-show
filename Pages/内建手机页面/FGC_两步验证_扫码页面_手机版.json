@@ -1,0 +1,205 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "0,0": "  ",
+    "6,3": "两步验证",
+    "9,3": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
+    "22,3": "下一步"
+  },
+  "AttachInfos": {
+    "12,5": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "下一步",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Left",
+        "Bottom",
+        "Text 1 50",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "6,3": 0,
+      "9,3": 1,
+      "12,5": 2,
+      "22,3": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "6,3,2,13",
+    "9,3,3,13",
+    "12,5,9,9",
+    "22,3,2,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "两步验证",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "95196ed9-726e-48d2-a401-d2ea0d937981",
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "380,580"
+    },
+    {
+      "Name": "a92cb5bd-7daf-4c37-a18b-6ba01f45c008",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,80",
+      "Size": "340,440"
+    }
+  ]
+}//wcO6jU8tOjslbDHpJ+OJbkkyasoPaDcQK1jUOM2JwiDk3fR7L+u0y2YMBsFQEpaH9qMvqljZKfPUnMUXCCn9EjUYHpFsEjEMNeyj2jMoZ7oet9iXqAn/6p0AR5j/6UMkxugm91mlLBkHew4N8m6CRDT/h61Fs9KXCbRIHc0C1rubI+Jc/mk+U1hEj2iVUtChzJGKRo0Qy3sMWZfrGzd64yhAY898Sw34qzwtOV24+FQxPq51qS549dZQPT7QhUjvPz4g7JWJg9MVXfWKUvETSMT+nvC+TG0FaN9nkh00dBINXNdtTfHuhBQaMwAmDlaS85hjd8nXy4N0ya6UQy1SN1YD2ljLTaaGYNFTwPfvPUaAEyh1lrpiuGKnQimIcmXwAODtfxgH/k2FOe5rCpU7kf+kp2J+MSW1Jo82uw5s1xFDFZtmnL7HJDG3FgwUXdsKywUlrW9SEgzHfxNIGRg2CPobnIhHhtQZ6VYRrTaYwvES4X7tjn6EouzsFpJzIqWYQcqclE8tfnhQ8iVWvIGLew4E8lUT3cGMw8yBpt9wLYXcTYk40MkDYqSNJUaQf0QE8mvsi4qYDLbwz8PWL0bbTUoSG3HFV1u/X3EbZg4QoTLVDjm+PxZlOkfr8GaooF/tqRlKnS2zNoVCos4kcj9sOLI8TNd88Hys/H5uYTy2YYi5eKeG+/ztVkLofvMckzbHMskbzrxCSnmMuPoHDK2rx/iTEvXhyLXtZi5HyyAsiGP6EgGTL2Yq4+GKWX1srdNo556LhFxYubT+qZA057KgB4eGxNt7uckLhoBAdasGBeXC8bRaVhs8oGy0PF6w+VGOxPMB7c3WtOeulRLe2Zjfptuke8cO9X8hsJmh5Tm15lw49L0wIcYK+smnDbhUmIkoI/2tG/3Ry+cejQf0WtvhHw==|920

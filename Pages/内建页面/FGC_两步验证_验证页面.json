@@ -1,0 +1,245 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "6,20": "两步验证",
+    "9,20": "请输入您在身份验证器APP中看到的6位数验证码。",
+    "12,20": "验证码",
+    "18,20": "验证"
+  },
+  "AttachInfos": {
+    "13,20": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "FirstParamValue": "6",
+        "IgnoreBlank": false,
+        "ErrorMessage": "请输入6位数验证码。"
+      }
+    },
+    "16,20": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "在此设备上不再询问",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "18,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "验证",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 5,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6,
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Left",
+        "Text 1 50",
+        "Top",
+        "@",
+        "Text 1 35"
+      ]
+    },
+    "CellStyles": {
+      "6,20": 0,
+      "9,20": 1,
+      "12,20": 2,
+      "13,20": 3,
+      "16,20": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "6,20,2,14",
+    "9,20,2,14",
+    "13,20,2,14",
+    "16,20,1,16",
+    "18,20,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "两步验证",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "e7440137-c5e3-48c1-a920-390c0f6f47bb",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "1080,630"
+    },
+    {
+      "Name": "9807065b-6815-4c32-9460-10336bcc9055",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Location": "340,80",
+      "Size": "400,370"
+    }
+  ]
+}//nkR7vANqRdu0j0VEiAE//g3ag6INfhupDKvZAmTbm/wFYJuSnIAeep6faXVANa1Y3+cYgiP0N05U0s/SS1jkxuPn8abFhtO/Zok3ysVsCUTh4wol2nzcVcNoir4SESoa/HvPbXaA5N9XEgYmWqtobNGFh3kf+oB1iw9EIHOibd+53rurwltZ7R8DCBV2L12wiI7WJwNRTVJebVn2wBez1yll4Znx+Osh4FNA2IhQtKG3I5PeyGLaRqoVqC/0FW+XpAnnfjuY5yFFmhnQa+e/QjDZ3mquHupovq5JpPRHvAkyUoolnLNRlEyk8u7PiyFF1jc8ofboAtBPu3gAiTyMOaKNyXF3NKDXjtPrTOwidhM2v3BI5oDd2VaV1kwtIy4qNloOdmjhP7eKA3ECjKe7Cdp2Z8aOI8jzU837lGoaeVwDtS6k9aEbPCKrJiHG731KBI73LqAfZmyzhCPBSRz7g3tBSjBWOUzz7JCnyZHufX1/shVIjCWKSzddgwvoPXOVWYctJFT7wCmvT0C5lgvRH+wB/g933+UYkLNib1nUP0P8+D/bZu2e1xc1LomzOoJ5Agh23VnA3E2RmkGs6OPWREeojSxd8vyMEqKGcFryvy6Onugm7VQSX9WT+/FIT8LRhT9l4Bezms901AGbN9XsMSoXglbZJLCLFn6OYaWDvymPWUmeaDcHNqrKsKRzkd0zjU8eceNV8T9P6RThKAe7NkJxkO5K7Xb33QsLwGmtlckOAjR6L9yAttOj1Glv/vKdWPYHoRzSoLLiZNdNJzOOryie9Fe2DCh8cT97xOdz6AGUalXpmSMlTYVhg+ejOqCKG01+8WdNWHHGHOlH51hTHti89gDrCwAdz4BiGL0AjOjeZvuH+jt9CrUXkUJYKYLxlIeD9U1l7J9q/81TDvSrhg==|920

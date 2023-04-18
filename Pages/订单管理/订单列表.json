@@ -1,0 +1,691 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 35.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 27
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 53
+  },
+  "Values": {
+    "2,24": "查询",
+    "6,2": "订单列表",
+    "6,47": "新增",
+    "8,47": "操作"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "请输入订单编号/订单名称/公司名称",
+        "prefixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none"
+      }
+    },
+    "2,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "订单表",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "订单表",
+                    "ColumnName": "订单编号",
+                    "GUID": "091732b9-c0dd-499a-9f45-67cec646f5e2"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=订单列表!C3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "订单表",
+                    "ColumnName": "客户ID",
+                    "GUID": "99d0986d-f70b-4661-9ceb-a2921a72cdf9",
+                    "RelationBinding": {
+                      "RelatedTable": "客户信息",
+                      "RelatedColumn": "ID",
+                      "DisplayColumn": "公司名称"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=订单列表!C3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "订单表",
+                    "ColumnName": "订单名称",
+                    "GUID": "27f0fbf6-e419-4267-b81c-3b60e0d2d632"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=订单列表!C3"
+                  }
+                }
+              ],
+              "RelationType": 1
+            },
+            "ID": "2c34f94790e84c65b29294424a81bf39"
+          }
+        ],
+        "Text": "查询",
+        "TemplateKey": "样式14"
+      }
+    },
+    "6,47": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "订单维护",
+            "PassValues": [
+              {
+                "Source": "新增",
+                "TargetCell": {
+                  "SerializeProperty": "=订单维护!AO27"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "新增",
+        "TemplateKey": "样式14"
+      }
+    },
+    "8,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "订单表",
+        "RowIndex": 8,
+        "ColumnIndex": 2,
+        "RowCount": 15,
+        "ColumnCount": 49,
+        "TopCondition": null,
+        "ListViewStyleName": "带表框表格",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,2": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "ID",
+        "GUID": "f412a33e-e1b9-4550-bac9-78a638f8af5c"
+      }
+    },
+    "9,4": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单编号",
+        "GUID": "7f07eb71-d43b-4966-8e55-25dd4fd56011"
+      }
+    },
+    "9,10": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单名称",
+        "GUID": "41ef7b4f-05ed-4c3e-9ca6-04ef3ab63972"
+      }
+    },
+    "9,17": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "73bc89ce-bc13-4ef8-bceb-382c6be65efe",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "公司名称"
+        }
+      }
+    },
+    "9,23": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "a12f25af-4c9e-4c01-a4e2-8d613f70a0cc",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "联系人"
+        }
+      }
+    },
+    "9,28": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "客户ID",
+        "GUID": "f478a41b-e592-4282-8dac-462361cf874d",
+        "RelationBinding": {
+          "RelatedTable": "客户信息",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "联系电话"
+        }
+      }
+    },
+    "9,34": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "签订时间",
+        "GUID": "c6bd8584-7224-49fc-8edc-41ed6bbfc1fd"
+      }
+    },
+    "9,40": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "总金额",
+        "GUID": "91a8663e-7524-44b0-8574-bf61aa7687d2"
+      }
+    },
+    "9,44": {
+      "BindingInfo": {
+        "TableName": "订单表",
+        "ColumnName": "订单状态",
+        "GUID": "a0424b1f-f703-450c-b87c-da08c511ca9a"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"已完成\"",
+            "StyleInfo": {
+              "Foreground": "#FF00B050",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          },
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 3,
+            "Value1": "=\"进行中\"",
+            "StyleInfo": {
+              "Foreground": "Accent 1 0",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "9,47": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "订单维护",
+            "PassValues": [
+              {
+                "Source": "修改",
+                "TargetCell": {
+                  "SerializeProperty": "=订单维护!AO27"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "TemplateKey": "样式4",
+        "ImagePath": "Application/031_edit_file_2.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "9,49": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ShowConfirm": true,
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "TemplateKey": "样式4",
+        "ImagePath": "Application/037_delete_2.svg",
+        "BuiltIn": true,
+        "UseCellForeColor": true
+      }
+    },
+    "24,2": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pagerCount": 7,
+        "layout": [
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          },
+          {
+            "layoutItem": "jumper"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "total"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Background": 2,
+        "TextIndent": 5,
+        "HorizontalAlignment": 3,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Background": 2,
+        "BorderBottom": 0
+      },
+      {
+        "BorderRight": 1
+      },
+      {
+        "TextIndent": 5,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "TextIndent": 5,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6,
+        "TextIndent": 5,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Formatter": 7
+      },
+      {
+        "Formatter": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Background 1 0",
+        "Left",
+        "Accent 1 0",
+        "Background 1 -15",
+        "General",
+        "yyyy\"年\"m\"月\"d\"日\"",
+        " ¥#,##0.00"
+      ],
+      "Borders": [
+        {
+          "Style": 2,
+          "Color": 4
+        },
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,24": 0,
+      "2,25": 1,
+      "2,26": 1,
+      "2,27": 1,
+      "6,1": 1,
+      "6,47": 0,
+      "8,2": 2,
+      "8,3": 3,
+      "8,4": 2,
+      "8,5": 3,
+      "8,6": 3,
+      "8,7": 3,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3,
+      "8,11": 3,
+      "8,12": 3,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 2,
+      "8,17": 3,
+      "8,18": 3,
+      "8,19": 3,
+      "8,20": 3,
+      "8,21": 3,
+      "8,22": 3,
+      "8,23": 3,
+      "8,24": 2,
+      "8,25": 3,
+      "8,26": 3,
+      "8,27": 3,
+      "8,28": 3,
+      "8,29": 2,
+      "8,30": 3,
+      "8,31": 3,
+      "8,32": 3,
+      "8,33": 3,
+      "8,34": 3,
+      "8,35": 3,
+      "8,36": 3,
+      "8,37": 3,
+      "8,38": 3,
+      "8,39": 3,
+      "8,40": 3,
+      "8,41": 3,
+      "8,42": 3,
+      "8,43": 3,
+      "8,44": 3,
+      "8,45": 3,
+      "8,46": 3,
+      "8,47": 4,
+      "8,48": 3,
+      "8,49": 4,
+      "8,50": 3,
+      "8,51": 5,
+      "9,2": 6,
+      "9,4": 6,
+      "9,10": 1,
+      "9,11": 1,
+      "9,12": 1,
+      "9,13": 1,
+      "9,14": 1,
+      "9,15": 1,
+      "9,16": 1,
+      "9,17": 7,
+      "9,23": 8,
+      "9,24": 1,
+      "9,25": 1,
+      "9,26": 1,
+      "9,27": 1,
+      "9,28": 1,
+      "9,29": 1,
+      "9,30": 1,
+      "9,31": 1,
+      "9,32": 1,
+      "9,33": 1,
+      "9,34": 9,
+      "9,40": 10,
+      "9,51": 5,
+      "10,51": 5,
+      "11,51": 5,
+      "12,51": 5,
+      "13,51": 5,
+      "14,51": 5,
+      "15,51": 5,
+      "16,51": 5,
+      "17,51": 5,
+      "18,51": 5,
+      "19,51": 5,
+      "20,51": 5,
+      "21,51": 5,
+      "22,51": 5,
+      "23,51": 5,
+      "24,51": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,1,21",
+    "24,2,1,49",
+    "2,24,1,4",
+    "6,47,1,4",
+    "10,2,13,49",
+    "9,2,1,2",
+    "9,4,1,6",
+    "9,10,1,7",
+    "9,17,1,6",
+    "9,23,1,5",
+    "9,28,1,6",
+    "9,34,1,6",
+    "9,40,1,4",
+    "9,44,1,3",
+    "9,49,1,2",
+    "9,47,1,2",
+    "8,2,1,2",
+    "8,4,1,6",
+    "8,10,1,7",
+    "8,17,1,6",
+    "8,23,1,5",
+    "8,28,1,6",
+    "8,34,1,6",
+    "8,40,1,4",
+    "8,44,1,3",
+    "8,47,1,2",
+    "8,49,1,2"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "左侧导航布局",
+    "MobilePageName": "物品维护-Mobile",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "2521338a-71d6-4a7a-81ba-b9c559f18a0e.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1060,627"
+    },
+    {
+      "Name": "6f08257c-4eeb-4014-a154-57addc368c39.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,20",
+      "Size": "1020,72"
+    },
+    {
+      "Name": "ab9e8cbc-96ad-46d2-a678-229c715c0335.png",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,112",
+      "Size": "1020,495"
+    },
+    {
+      "Name": "BackgroundPicture5",
+      "DisplayName": "背景图8",
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "29,126",
+      "Size": "4,24"
+    }
+  ]
+}//BU6UQOyzbttNmVVsRWw2Mez/+tT+h3fylpdBo3S43y0ta/la/0EkXsbVaOIYZlP6C+vRnhRyTXh/I1UjwaornP5MEF4tlrmnsAM1pFGIJfwTL4UbYsVkXgMfZeZGHHJjjM7Xpc8C6ejcfzwQVQP09oEf3o2oJp8viC8x52+h7gKpRnP/0uAQJQLuDPGpbI6oSxHsJpjBKWbTYki+yOnQUSGdnO/PjL2cmv9fW0Q8KDrjYPrCa6gH3oCNlGff4Icu1b7zytMz0l67fTgtt2r3LhEHoeJKMpOnMFM1PO9F3HKTNnxIoLlhYoZR7p2PmlAc0RbQBtYjDUtAo2aVnDbMbV7nzWc2cRpustyXHF2O8g0YpqIcRDwHot2LFvjdP/2QPbbsbcFiSGsPwfwaFcf4wN8cDb1vfXLHWaR+/w63Mn27d62NRpl/JLkQZvZq2ZJIaoQXBVWBHP75mEomSEe97HmUS801urtrQlTAEOwraleJcNWIFWQ5OOAIisfzrGbRvT9B8x8M55+GD+7A6vIZqlcwV1xU/OazteMzxfKG2rsE6axWsGuTRarnrP4vgRaYxUi3PWIyCHrxwfM/ZpoDJFUlRi5zFIepFNlfSP4FBAJ07MftZ8SHbl6Mq+feNo03/lkcA6nymZT96y0THd9jc/pUCffRomq1j/NZWMCOjko98PffJiBoNkH3k6XS1Qt5vL2QBTorftKyBdQIwt43r8Xqr8L6QMVIai1rkCw6ZXro3Elx2gJh68uZbSYsMWcXhImQQXV5x4E665UXLcxZIKHVgUozUe1p4sWjVCtvjff0ZkyFAu+98cU6Wz8plJkppqplLpi6IARGqzux7N8A6hXtheVwcVVRkP8olKNwYmoTDqwpp3xiKq1/HBEZhOiaI77ZcH9igDZpQkPKBV5WnQ==|920

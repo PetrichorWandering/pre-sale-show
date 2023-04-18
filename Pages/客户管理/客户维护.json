@@ -1,0 +1,752 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 19,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "Count": 19
+  },
+  "Values": {
+    "1,1": "*",
+    "1,2": "公司名称",
+    "4,2": "地址",
+    "7,1": "*",
+    "7,2": "联系人",
+    "10,1": "*",
+    "10,2": "联系电话",
+    "13,2": "邮箱",
+    "17,13": "取消"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "BindingInfo": {
+        "TableName": "客户信息",
+        "ColumnName": "公司名称",
+        "GUID": "dc1379df-e516-4ffb-ab5a-4eacdd349dcc"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "公司名称不为空"
+      }
+    },
+    "5,2": {
+      "BindingInfo": {
+        "TableName": "客户信息",
+        "ColumnName": "地址",
+        "GUID": "21ab644c-f18c-491f-a3ea-bbcaa262762c"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "8,2": {
+      "BindingInfo": {
+        "TableName": "客户信息",
+        "ColumnName": "联系人",
+        "GUID": "695dc82b-0556-4b9c-9c9b-831132b33ed0"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "请选择",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "联系人不为空"
+      }
+    },
+    "11,2": {
+      "BindingInfo": {
+        "TableName": "客户信息",
+        "ColumnName": "联系电话",
+        "GUID": "8114d7a8-0796-46a4-a577-db4b5a02719d"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "NumberType": 8,
+        "CompareParamType": 4,
+        "FirstParamValue": "^1\\d{10}$",
+        "ErrorMessage": "请输入正确的手机号码",
+        "SelectedDefaultRegularExpression": "手机号码"
+      }
+    },
+    "14,2": {
+      "BindingInfo": {
+        "TableName": "客户信息",
+        "ColumnName": "邮箱",
+        "GUID": "e1422e46-4ca5-48b2-a7dc-84fccafec218"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "placeholder": "请输入标题",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "NumberType": 8,
+        "FirstParamValue": "^((([a-zA-Z]|\\d|[!#\\$%&'\\*\\+\\-\\/=\\?\\^_`{\\|}~]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])+(\\.([a-zA-Z]|\\d|[!#\\$%&'\\*\\+\\-\\/=\\?\\^_`{\\|}~]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])+)*)|((\\x22)((((\\x20|\\x09)*(\\x0d\\x0a))?(\\x20|\\x09)+)?(([\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x7f]|\\x21|[\\x23-\\x5b]|[\\x5d-\\x7e]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(\\\\([\\x01-\\x09\\x0b\\x0c\\x0d-\\x7f]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]))))*(((\\x20|\\x09)*(\\x0d\\x0a))?(\\x20|\\x09)+)?(\\x22)))@((([a-zA-Z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(([a-zA-Z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])([a-zA-Z]|\\d|-|\\.|_|~|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])*([a-zA-Z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])))\\.)+(([a-zA-Z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(([a-zA-Z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])([a-zA-Z]|\\d|-|\\.|_|~|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])*([a-zA-Z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])))$",
+        "ErrorMessage": "请输入正确的邮箱",
+        "SelectedDefaultRegularExpression": "邮箱"
+      }
+    },
+    "17,8": {
+      "CellComment": {
+        "Comments": "按照操作行为执行对应数据操作"
+      },
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=客户维护!I18"
+                      }
+                    ]
+                  },
+                  "value": "新增"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "客户信息",
+                    "UpdateType": "add",
+                    "ShowConfirm": false
+                  },
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "客户添加成功",
+                    "Type": "success",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "18763845-79f9-4b3e-acfd-a95738d01dd5"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "客户信息",
+                    "ShowConfirm": false
+                  },
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": "客户修改成功",
+                    "Type": "success",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "b6acd93f-530f-48df-ac99-2fa1156af654"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "TemplateKey": "样式14"
+      }
+    },
+    "17,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "样式13"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "TextIndent": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "TextIndent": 5,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFFF0000",
+        "Text 1 50",
+        "[AUTO]General",
+        "Right",
+        "Background 1 -5"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "2,1": 3,
+      "2,2": 2,
+      "2,3": 2,
+      "2,4": 2,
+      "2,5": 2,
+      "2,6": 2,
+      "2,7": 2,
+      "2,8": 2,
+      "2,9": 2,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2,
+      "2,16": 2,
+      "2,17": 3,
+      "3,1": 3,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 3,
+      "4,1": 4,
+      "4,2": 1,
+      "4,3": 2,
+      "4,4": 2,
+      "4,5": 2,
+      "4,6": 2,
+      "4,7": 2,
+      "4,8": 2,
+      "4,9": 2,
+      "4,10": 2,
+      "4,11": 2,
+      "4,12": 2,
+      "4,13": 2,
+      "4,14": 2,
+      "4,15": 2,
+      "4,16": 2,
+      "5,1": 4,
+      "5,2": 5,
+      "5,3": 2,
+      "5,4": 2,
+      "5,5": 2,
+      "5,6": 2,
+      "5,7": 2,
+      "5,8": 2,
+      "5,9": 2,
+      "5,10": 2,
+      "5,11": 2,
+      "5,12": 2,
+      "5,13": 2,
+      "5,14": 2,
+      "5,15": 2,
+      "5,16": 2,
+      "5,17": 3,
+      "6,1": 4,
+      "6,2": 5,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "6,14": 2,
+      "6,15": 2,
+      "6,16": 2,
+      "6,17": 2,
+      "6,18": 2,
+      "7,1": 0,
+      "7,2": 1,
+      "7,3": 2,
+      "7,4": 2,
+      "7,5": 2,
+      "7,6": 2,
+      "7,7": 2,
+      "7,8": 2,
+      "7,9": 2,
+      "7,10": 2,
+      "7,11": 2,
+      "7,12": 2,
+      "7,13": 2,
+      "7,14": 2,
+      "7,15": 2,
+      "7,16": 2,
+      "7,17": 2,
+      "8,1": 2,
+      "8,2": 2,
+      "8,3": 2,
+      "8,4": 2,
+      "8,5": 2,
+      "8,6": 2,
+      "8,7": 2,
+      "8,8": 2,
+      "8,9": 2,
+      "8,10": 2,
+      "8,11": 2,
+      "8,12": 2,
+      "8,13": 2,
+      "8,14": 2,
+      "8,15": 2,
+      "8,16": 2,
+      "9,1": 4,
+      "9,2": 5,
+      "9,3": 2,
+      "9,4": 2,
+      "9,5": 2,
+      "9,6": 2,
+      "9,7": 2,
+      "9,8": 2,
+      "9,9": 2,
+      "9,10": 2,
+      "9,11": 2,
+      "9,12": 2,
+      "9,13": 2,
+      "9,14": 2,
+      "9,15": 2,
+      "9,16": 2,
+      "9,17": 2,
+      "9,18": 2,
+      "10,1": 0,
+      "10,2": 1,
+      "10,3": 2,
+      "10,4": 2,
+      "10,5": 2,
+      "10,6": 2,
+      "10,7": 2,
+      "10,8": 2,
+      "10,9": 2,
+      "10,10": 2,
+      "10,11": 2,
+      "10,12": 2,
+      "10,13": 2,
+      "10,14": 2,
+      "10,15": 2,
+      "10,16": 2,
+      "10,17": 2,
+      "10,18": 2,
+      "11,1": 2,
+      "11,2": 2,
+      "11,3": 2,
+      "11,4": 2,
+      "11,5": 2,
+      "11,6": 2,
+      "11,7": 2,
+      "11,8": 2,
+      "11,9": 2,
+      "11,10": 2,
+      "11,11": 2,
+      "11,12": 2,
+      "11,13": 2,
+      "11,14": 2,
+      "11,15": 2,
+      "11,16": 2,
+      "12,1": 2,
+      "12,17": 2,
+      "12,18": 2,
+      "13,1": 0,
+      "13,2": 6,
+      "13,3": 3,
+      "13,4": 3,
+      "13,5": 3,
+      "13,6": 3,
+      "13,7": 2,
+      "13,8": 2,
+      "13,9": 2,
+      "13,10": 2,
+      "13,11": 2,
+      "13,12": 2,
+      "13,13": 2,
+      "13,14": 2,
+      "13,15": 2,
+      "13,16": 2,
+      "13,17": 2,
+      "13,18": 2,
+      "14,1": 4,
+      "14,2": 2,
+      "14,3": 2,
+      "14,4": 2,
+      "14,5": 2,
+      "14,6": 2,
+      "14,7": 2,
+      "14,8": 2,
+      "14,9": 2,
+      "14,10": 2,
+      "14,11": 2,
+      "14,12": 2,
+      "14,13": 2,
+      "14,14": 2,
+      "14,15": 2,
+      "14,16": 2,
+      "15,0": 7,
+      "15,1": 7,
+      "15,2": 7,
+      "15,3": 7,
+      "15,4": 7,
+      "15,5": 7,
+      "15,6": 7,
+      "15,7": 7,
+      "15,8": 7,
+      "15,9": 7,
+      "15,10": 7,
+      "15,11": 7,
+      "15,12": 7,
+      "15,13": 7,
+      "15,14": 7,
+      "15,15": 7,
+      "15,16": 7,
+      "15,17": 7,
+      "15,18": 7,
+      "17,1": 2,
+      "17,2": 2,
+      "17,3": 2,
+      "17,4": 2,
+      "17,5": 2,
+      "17,6": 2,
+      "17,7": 2,
+      "17,8": 2,
+      "17,9": 2,
+      "17,10": 2,
+      "17,11": 2,
+      "17,12": 2,
+      "17,13": 2,
+      "17,14": 2,
+      "17,15": 2,
+      "17,16": 2,
+      "17,17": 2,
+      "17,18": 2,
+      "18,1": 2,
+      "18,17": 2,
+      "18,18": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,1,15",
+    "5,2,1,15",
+    "8,2,1,15",
+    "11,2,1,15",
+    "14,2,1,15",
+    "17,13,1,4",
+    "17,8,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//LoQ1xOuOhR9nRCXfhCbtFGqF1Dcok0m48vdfNS6cysbRyS2Ih32J+cIB2HQxREMsXGQ3EozUB9QvZXUZ5WuDawB9UtxKOoZ6vUL9De2iJCRCoIIqIfQ2tyrTp8pKLl1PRHc5LVY0SfmN1fv3b1KeVsA3xS4LnpfW7rDPrbHiPYWybZYimOaqDHjC5iwwRp8gI7x62zow+GDEKXMP2lkwT0B+b1k0nQUZB7xMQP6S3aaXaUr7D1jQzD4APeHL4JA6VEQbbuB4MuNM2IYqVI++IHdMDWUgGCN/fY+N5if7ikjxEZ+ceM1QRxb5svgbe0DKpgS549+Vd+6ChrdgF8C8qHxFIY9LE/khjMDILxPtgkuYwfyAw52ca5xTF/1b7atQAFTYWEI4bgfAxiOn0CUH1Dl7RwqFOO4WyPZSRuPLTHvLN8lG2QBdy0e5beOrOZV3ZgCqKra0MCKF0MPxhSMWC4kxVRYyu1JiM5q+r4g5HiyG37s655pKP0SK+qR2MzaDdGuVPWr6JdqhoDKZJKtXhxeR6cREOWUPLgl6qF/5g661QLrTaQTagiH/fELTVWlJ+ZxzkK6RDumrHr3C+oMerKW2qUu2+j/1hcSESALM/tF71iS3jryK4pc7jUSQYziv8JGmpj2mJE2aFQBuMJxejWVa7baaAadggMb7TGPuho//RZ14Fo/AAEgsig4n9QIjTq3ZeHlAuPy7VQWFPS8tRiCO35pWC+YqtkHeA3FQDhpXBegYjCgU0JgyT+q/Gi7/wS3/4+rS0F6zm0Y+jL6vz0O4ZG9XAnxTF5IrTZSBm6a8biZRuC2zwXCJthij656nRNUb3DH3bZ0Tk1HGdd6SD4dGX4S66jw6AuK1tEzRZEI2u6gH1yTLwfXIRJS6TuvP9nHd3RHPqH2891iI9hKg1A==|920
