@@ -5,16 +5,7 @@
   },
   {
     "ModuleName": "Table/t_order_info",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T17:59:10.8578216+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\t_order_info.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/t_order_details",
@@ -266,16 +257,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T17:59:34.4412645+08:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
