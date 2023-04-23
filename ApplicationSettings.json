@@ -2,11 +2,12 @@
   "IntegrateWithOtherApplication": {
     "Password": "oIItfMH(brb~"
   },
-  "ListviewLoadingIndicatorSettings": {},
+  "ListviewLoadingIndicatorSettings": {
+    "LocalImageName": "loading.gif"
+  },
   "GlobalProperties": [],
   "WebSitePort": 20335,
   "UserServicePort": 34704,
   "StartPage": "物品列表",
-  "StartDateFiscalYear": 1,
-  "PageLoadingMode": 2
+  "StartDateFiscalYear": 1
 }
