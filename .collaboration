@@ -1,7 +1,16 @@
 [
   {
     "ModuleName": "Table/t_order_product",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T17:01:22.0155306+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_order_product.json"
+    ]
   },
   {
     "ModuleName": "Table/t_order_info",
