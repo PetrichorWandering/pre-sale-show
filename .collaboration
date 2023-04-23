@@ -301,26 +301,6 @@
     "ModuleType": 38
   },
   {
-    "ModuleName": "image/导入文件夹1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0102265+08:00",
-    "ModuleType": 37
-  },
-  {
-    "ModuleName": "image/导入文件夹1/内置图片",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0102443+08:00",
-    "ModuleType": 37
-  },
-  {
     "ModuleName": "Image/fgc_built-in-page-logo.png",
     "State": 3,
     "LockedBy": {
