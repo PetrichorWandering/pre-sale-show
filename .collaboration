@@ -221,15 +221,42 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
-    "ModuleType": 38
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0105519+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\内置图片\\fgc_logo_dark.png"
+    ]
   },
   {
     "ModuleName": "Image/fgc_logo_light.png",
-    "ModuleType": 38
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.010576+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\内置图片\\fgc_logo_light.png"
+    ]
   },
   {
     "ModuleName": "Image/loading.gif",
-    "ModuleType": 38
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0105787+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\内置图片\\loading.gif"
+    ]
   },
   {
     "ModuleName": "Image/活字格_64.png",
@@ -262,5 +289,55 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-401.png",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0092203+08:00",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "image/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0102265+08:00",
+    "ModuleType": 37
+  },
+  {
+    "ModuleName": "image/导入文件夹1/内置图片",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0102443+08:00",
+    "ModuleType": 37
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-logo.png",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0102625+08:00",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-maintained.png",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:08:00.0102673+08:00",
+    "ModuleType": 38
   }
 ]
