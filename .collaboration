@@ -273,7 +273,16 @@
   },
   {
     "ModuleName": "Image/grapecity_b_32.png",
-    "ModuleType": 38
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:09:12.9818245+08:00",
+    "ModuleType": 38,
+    "ToRemoveFiles": [
+      "image\\grapecity_b_32.png"
+    ]
   },
   {
     "ModuleName": "Image/活字格_128.png",
