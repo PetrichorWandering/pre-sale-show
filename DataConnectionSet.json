@@ -1,6 +1,6 @@
 [
   {
-    "ConnectionString": "Server=petrichorwandering.cn;User ID=geraldzhang;Password=Curtain8848data*;Database=presale_show;Port=3306",
+    "ConnectionString": "Server=petrichorwandering.cn;User ID=geraldzhang;Password=Curtain8848data*;Database=presale_show;Port=3306;Server RSA Public Key File=TRUE",
     "DataBaseType": 6,
     "ID": "gerald-env"
   }
