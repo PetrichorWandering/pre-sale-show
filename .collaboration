@@ -209,7 +209,17 @@
   },
   {
     "ModuleName": "ApplicationSetting",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T18:12:17.0141187+08:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings.json",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "Theme",
