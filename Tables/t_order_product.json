@@ -1,5 +1,5 @@
 {
-  "Name": "客户信息",
+  "Name": "t_order_product",
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -14,51 +14,72 @@
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "Required": true,
+      "Unique": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "公司名称",
+      "IsAutoGenreatedIDSettingEnable": true,
+      "AutoGenreatedIDSetting": {
+        "Composition": [
+          {
+            "Content": "WP"
+          },
+          {
+            "ComponentType": 3,
+            "Content": 5
+          }
+        ],
+        "IgnoreConflictWhenSave": true
+      },
+      "Name": "product_no",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.ImageBindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "product_pic",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "省份",
+      "Name": "product_name",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "城市",
+      "Name": "product_brand",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "地址",
+      "Name": "product_unit",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "联系人",
+      "Name": "product_category",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "product_price",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "联系电话",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 190,
-      "Name": "邮箱",
+      "Name": "remark",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -80,12 +101,19 @@
       "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_LastModifyDate"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "AggregateFunction": 1,
+      "DataColumnName": "2E642EE9-F6EF-4275-8952-5C6BF1AD41DC",
+      "Name": "count",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
   "ExternalDatabaseInfo": {
     "AllowModifySchema": true,
-    "ConnectionId": "tencent",
-    "SourceTableName": "客户信息",
+    "ConnectionId": "gerald-env",
+    "SourceTableName": "t_order_product",
     "SourceTableSchema": ""
   },
   "PrimaryKey": [

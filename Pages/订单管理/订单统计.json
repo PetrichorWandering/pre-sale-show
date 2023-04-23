@@ -114,7 +114,7 @@
     "1,48": {
       "ListViewInfo": {
         "Name": "表格3",
-        "TableName": "订单表",
+        "TableName": "t_order_info",
         "RowIndex": 1,
         "ColumnIndex": 48,
         "RowCount": 10,
@@ -129,27 +129,27 @@
     },
     "2,48": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "客户ID",
+        "TableName": "t_order_info",
+        "ColumnName": "customer_id",
         "GUID": "3f8caff6-458b-4d1b-aaf1-3c613e4bd1b3",
         "RelationBinding": {
-          "RelatedTable": "客户信息",
+          "RelatedTable": "t_order_customer",
           "RelatedColumn": "ID",
-          "DisplayColumn": "公司名称"
+          "DisplayColumn": "company"
         }
       }
     },
     "2,53": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "个数",
+        "TableName": "t_order_info",
+        "ColumnName": "count",
         "GUID": "ddad5485-db4e-4e3b-902c-041115b5affe"
       }
     },
     "12,48": {
       "ListViewInfo": {
         "Name": "表格4",
-        "TableName": "订单表",
+        "TableName": "t_order_info",
         "RowIndex": 12,
         "ColumnIndex": 48,
         "RowCount": 7,
@@ -164,27 +164,27 @@
     },
     "13,48": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "客户ID",
+        "TableName": "t_order_info",
+        "ColumnName": "customer_id",
         "GUID": "f4598a6e-e0e9-4999-8a03-7fb01e306aa0",
         "RelationBinding": {
-          "RelatedTable": "客户信息",
+          "RelatedTable": "t_order_customer",
           "RelatedColumn": "ID",
-          "DisplayColumn": "公司名称"
+          "DisplayColumn": "company"
         }
       }
     },
     "13,53": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "总收入",
+        "TableName": "t_order_info",
+        "ColumnName": "gross_income",
         "GUID": "5e32a865-f0bb-4838-bce8-341f9384462b"
       }
     },
     "17,1": {
       "ListViewInfo": {
         "Name": "表格1",
-        "TableName": "订单表",
+        "TableName": "t_order_info",
         "RowIndex": 17,
         "ColumnIndex": 1,
         "RowCount": 8,
@@ -195,13 +195,13 @@
             {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
-                "TableName": "订单表",
-                "ColumnName": "客户ID",
+                "TableName": "t_order_info",
+                "ColumnName": "customer_id",
                 "GUID": "cc851c00-df4b-4063-b5a3-c10efdb82fa4",
                 "RelationBinding": {
-                  "RelatedTable": "客户信息",
+                  "RelatedTable": "t_order_customer",
                   "RelatedColumn": "ID",
-                  "DisplayColumn": "公司名称"
+                  "DisplayColumn": "company"
                 }
               },
               "Value": {
@@ -212,8 +212,8 @@
             {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
-                "TableName": "订单表",
-                "ColumnName": "月份",
+                "TableName": "t_order_info",
+                "ColumnName": "month",
                 "GUID": "2726e8e4-10b2-4cdb-830d-d9f1a84efbd0"
               },
               "Value": {
@@ -234,55 +234,55 @@
     },
     "18,1": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单编号",
+        "TableName": "t_order_info",
+        "ColumnName": "order_no",
         "GUID": "7099e0a4-e39f-4f7f-8d4b-e5007e088d15"
       }
     },
     "18,9": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "客户ID",
+        "TableName": "t_order_info",
+        "ColumnName": "customer_id",
         "GUID": "2dee2d4c-9fb9-4150-91b8-4f08fd29ffc6",
         "RelationBinding": {
-          "RelatedTable": "客户信息",
+          "RelatedTable": "t_order_customer",
           "RelatedColumn": "ID",
-          "DisplayColumn": "公司名称"
+          "DisplayColumn": "company"
         }
       }
     },
     "18,16": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单类型",
+        "TableName": "t_order_info",
+        "ColumnName": "order_type",
         "GUID": "64c06f63-66e2-42a2-9be9-eb559a2a107c"
       }
     },
     "18,22": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "签订时间",
+        "TableName": "t_order_info",
+        "ColumnName": "time_signing",
         "GUID": "44d5d8c8-13ad-4024-8af0-8ac20c86a626"
       }
     },
     "18,30": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "总金额",
+        "TableName": "t_order_info",
+        "ColumnName": "total_amount",
         "GUID": "626dd34e-45ad-46c1-982b-2a1016b80fd1"
       }
     },
     "18,37": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单状态",
+        "TableName": "t_order_info",
+        "ColumnName": "order_status",
         "GUID": "ba76d943-2d10-4ba5-a8e3-dbbcf5b8f7df"
       }
     },
     "20,48": {
       "ListViewInfo": {
         "Name": "表格5",
-        "TableName": "订单表",
+        "TableName": "t_order_info",
         "RowIndex": 20,
         "ColumnIndex": 48,
         "RowCount": 10,
@@ -297,15 +297,15 @@
     },
     "21,48": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "月份",
+        "TableName": "t_order_info",
+        "ColumnName": "month",
         "GUID": "0c304d23-25c8-4f96-aa78-04c854ab0a6d"
       }
     },
     "21,53": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "总收入",
+        "TableName": "t_order_info",
+        "ColumnName": "gross_income",
         "GUID": "c412d598-7697-4dde-9422-8188df789455"
       }
     },
@@ -359,14 +359,14 @@
     "29,1": {
       "ListViewInfo": {
         "Name": "表格2",
-        "TableName": "订单详情表",
+        "TableName": "t_order_details",
         "RowIndex": 29,
         "ColumnIndex": 1,
         "RowCount": 8,
         "ColumnCount": 46,
         "DetailListViewInfo": {
-          "ColumnOfDetailTable": "订单ID",
-          "MasterTable": "订单表",
+          "ColumnOfDetailTable": "order_id",
+          "MasterTable": "t_order_info",
           "ColumnOfMasterTable": "ID",
           "DataCommitType": 2
         },
@@ -381,68 +381,68 @@
     },
     "30,1": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "24ad2d21-653c-4519-a3ba-5decd1b16f60",
         "RelationBinding": {
-          "RelatedTable": "物品表",
+          "RelatedTable": "t_order_product",
           "RelatedColumn": "ID",
-          "DisplayColumn": "编号"
+          "DisplayColumn": "product_no"
         }
       }
     },
     "30,9": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "431d5182-fccf-4141-acbd-687b324daf9b",
         "RelationBinding": {
-          "RelatedTable": "物品表",
+          "RelatedTable": "t_order_product",
           "RelatedColumn": "ID",
-          "DisplayColumn": "名称"
+          "DisplayColumn": "product_name"
         }
       }
     },
     "30,16": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "ed08569c-9e0c-4bcd-ab5d-a2963e332c5a",
         "RelationBinding": {
-          "RelatedTable": "物品表",
+          "RelatedTable": "t_order_product",
           "RelatedColumn": "ID",
-          "DisplayColumn": "品牌"
+          "DisplayColumn": "product_brand"
         }
       }
     },
     "30,23": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "f3e0b57a-8b64-4817-8d68-5ae499add41e",
         "RelationBinding": {
-          "RelatedTable": "物品表",
+          "RelatedTable": "t_order_product",
           "RelatedColumn": "ID",
-          "DisplayColumn": "单位"
+          "DisplayColumn": "product_unit"
         }
       }
     },
     "30,27": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "f875a53e-62c9-481a-bfea-982ee2d2dc78",
         "RelationBinding": {
-          "RelatedTable": "物品表",
+          "RelatedTable": "t_order_product",
           "RelatedColumn": "ID",
-          "DisplayColumn": "价格"
+          "DisplayColumn": "product_price"
         }
       }
     },
     "30,32": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "数量",
+        "TableName": "t_order_details",
+        "ColumnName": "quantity",
         "GUID": "c4962d3b-1865-4898-b0db-4d02321811a9"
       }
     },
@@ -1257,4 +1257,4 @@
       "Size": "282,285"
     }
   ]
-}//G7+oOq23nuOjclleu0Y+7EP4SJUb1cDm/TPOLEkMj1zM1LFSPm1ozqxx2DkP7XKktViOdXN53zDIwydv8kSK7u2EgGvqqA+7+rujpqJ1B6ND/WapRhqTSYVDnO2ZJPAikuqIZ9oRNSWBoXMvA3EKjDrdLK0TjYtSoJYwjgIhH/pBEfZBUXsKqvURQI97QhoYYqUPPR7OgWg1rmkavqcwj7o8A0oxnB49KNkkPr84QV681o0sAVI9M5Uf8frmNiGLmrclo1wk6R1XGk+nidgNhcWIB+OGw9hzjqeXXtCSyzDxJwYJeloXec012hqSEMnCguWFai7BdtMHe3+yQWJF6VetGYNyfvAMOnEu2EXaQRwEWeV7w6zS7khCbGyYEuStBLQpbpGQbtQPONw0M6/oAHXms7rqHe/DIZuLEHAsRdwKJZ7Oy1XIreUcp0EZN25HvxuH+zHwN4o/Mpq40W6CEBVPmeNA+a88R3agPW/vfBJRXEnZfJQU0Iq+MkR5NO/MjvRIdwEE6sX9fT6N4n5QyJ+GV55tTPf3wcA2Ajy0nEQh+2meujAejG+4B076JPrDQ/dBHoqc8Q+DgceNUKPRF4ggc5GVfuR7vkdovTrV3gvGJ99x9i9d8iXjuARwwManhd5gpuuSCR2KOVdEq1o9MmBgaTKGvAyT2YNZJM5T9RVoFqMFKwh25hibP0MXNFO05aPRHVsuK8R7gsHURp6rewwb4fiTzJI/yyit+duPaci/5ySo7p8+9lYUAFNJglb4hnpq9yWGe5vEyAYx7sCPQAYMdohUyHoTXLdcsn4choctBxjmrN3nIXD680c0hICqJ31GLG+ce3vdGR7cgUfhCGG+kK4b+S9oPVhA7ORf2hn00FkkusUgwx7EzNdENj+sH2fEIYtvcU2Yz/8N741Dkg==|920
+}//PM71REWtNBdLDmYMPPJ28KKGLYnMkgyQe2sLNPadCiaXX/eZHNAye5C4MAcr2pVSuTawYXpI5jdLnpHRVjEAgACH7l07Xtx7oiXP7tavoHQJp90zA7JnhKj/NmSrCGDE0KbPkNAQYMWEnAiEhTr5Sv0I1ytn/JNT0EpKjRBaCUajHBrVEO8gncZa2s9BJbbbvQyUx4yWG4w/L/U9xXJ/orEYPJok9VPGXrKos2WW2TfX8cm7xzFmzny2H+aLt1i4oOj3WoEnlwpV9s68Am5Psi6tsYuSUS3y8g0/SrrCKT3AwmTId7LMgJEnX8uK1x3eQja+vvR5alc9u0FqpQLmxymHH0oWLaN6bxCDb9hr+omwZTyILEhoPPDNfmxehY8sqbB2+PfsyCXoVMHUG565Ud9lIBciY3nfqmWdnny5o6COuwdQX8KEkaC0Sm5M+fgVlCmIg0MVBtW7N4kFFuM1ngHiBpgTn/SbGP5Z3A7wWXqg8Bi+y/7t4jH3QKuIvPtMMeKPfKxb4aY5mv3Nasq984CLDEmmWENU8j3nf/YvMeOPTI0iykU3DYIsnK/0Tybvj5i49KheQEXoc1bqeVTHjVp7/yXwwbKfaaWg3VycLWbtCAKqLmHlkOR/gZdAS3AJcNcWfiwUm3D1EizK57Wmk9eiIk7avLedSRZacS5ZKb/7y0eNWetqZAzMCQ2PoxUENfgQAMbOewpJNiYW6DmpyeMrFBmz3lyJqhO30V8XNrxL/IvFoe225YwPYP1ShMy6+7mTDiMvkYEqGosp1+cs2hb/nKovfA3qaU10fAgHOeaxCVzhCMXm39I8GgSRiDpq/E8I55IRU7WGy6evcHIpDqWOinnvgRIi9qR428v1jBZlViDz3Kx1zxmvsYLWdZbQpIqrlvgez+VCqRNRxGg/0w==|920

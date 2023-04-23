@@ -151,7 +151,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "物品表",
+            "TargetTableName": "t_order_product",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "SubConditions": [
@@ -159,8 +159,8 @@
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "物品表",
-                    "ColumnName": "编号",
+                    "TableName": "t_order_product",
+                    "ColumnName": "product_no",
                     "GUID": "cc7c79d6-53a2-4c71-8a9e-27ba4bc7fc9d"
                   },
                   "Value": {
@@ -172,8 +172,8 @@
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "物品表",
-                    "ColumnName": "名称",
+                    "TableName": "t_order_product",
+                    "ColumnName": "product_name",
                     "GUID": "c76f8e09-6e83-420a-b097-d7859610aee1"
                   },
                   "Value": {
@@ -184,7 +184,7 @@
               ],
               "RelationType": 1
             },
-            "ID": "8a523f9fff3b43e982066b18728a8eb0"
+            "ID": "497136bbe74449cdbb86bf861783a268"
           }
         ],
         "Text": "查询",
@@ -216,7 +216,7 @@
     "8,2": {
       "ListViewInfo": {
         "Name": "表格1",
-        "TableName": "物品表",
+        "TableName": "t_order_product",
         "RowIndex": 8,
         "ColumnIndex": 2,
         "RowCount": 20,
@@ -231,8 +231,8 @@
     },
     "8,39": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "图片",
+        "TableName": "t_order_product",
+        "ColumnName": "product_pic",
         "GUID": "418df3d5-c376-42bf-9611-1f83e6cfed6b",
         "IsImagePath": true
       },
@@ -243,43 +243,43 @@
     },
     "9,2": {
       "BindingInfo": {
-        "TableName": "物品表",
+        "TableName": "t_order_product",
         "ColumnName": "ID",
         "GUID": "dbc21370-5c45-43ef-88eb-bdc941a92f62"
       }
     },
     "9,4": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "编号",
+        "TableName": "t_order_product",
+        "ColumnName": "product_no",
         "GUID": "d1008ca8-2828-41a2-af31-3b5cd9997741"
       }
     },
     "9,10": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "名称",
+        "TableName": "t_order_product",
+        "ColumnName": "product_name",
         "GUID": "a557008a-2053-4177-b0df-2da8a77cccfa"
       }
     },
     "9,16": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "类别",
+        "TableName": "t_order_product",
+        "ColumnName": "product_category",
         "GUID": "87db234c-13cc-4da3-97e3-dc64cc335def"
       }
     },
     "9,24": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "价格",
+        "TableName": "t_order_product",
+        "ColumnName": "product_price",
         "GUID": "411635e5-18e4-4c0c-9876-0369426110dc"
       }
     },
     "9,29": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "单位",
+        "TableName": "t_order_product",
+        "ColumnName": "product_unit",
         "GUID": "66bde8cd-e473-4b28-b9ae-b7731628af40"
       }
     },
@@ -325,22 +325,22 @@
     },
     "19,39": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "名称",
+        "TableName": "t_order_product",
+        "ColumnName": "product_name",
         "GUID": "81771b4e-82a9-4f01-b441-8af66ce3dc0e"
       }
     },
     "22,39": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "品牌",
+        "TableName": "t_order_product",
+        "ColumnName": "product_brand",
         "GUID": "7f8cfc37-f9e7-44db-9a2b-242752ee27b7"
       }
     },
     "25,39": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "备注",
+        "TableName": "t_order_product",
+        "ColumnName": "remark",
         "GUID": "3bf8ba20-c21b-4869-ad3d-cbb06288372e"
       }
     },
@@ -767,4 +767,4 @@
       "Size": "4,24"
     }
   ]
-}//8HAkXW3nfHG1nd4Uyi37Rn/+y7ZAyYauIB1nE2dT5OJI2XyiLI5yWOILW0RWqZOUI9aXprmjbIbyHIpYZSdeJ03Je+UBj+0rjvTdxkMe0ioNqjPe38+ho8khpeY9h674CdxW0ujtLGR9bjGgEZwgjL8wguWEItW7Fk94cQOb1Y5a/x9IUijv3mtpBcbM0JKijBfz5Y5Po1IJmNQVXEJ1iYCjTTSCRDDVmh6PpS7mSv33/ZutD8tXyTVCnRHY4h7GTJmuj8wj38dcNsi3c6ZYEn8ntHqrU2nCDrYc5A4z4CbH0y+gDpd6zHQ8bigaHqeGj8k/Ij3oto89sPLtV2a8oUErSKpz4HAn7CTCPiKkGe8EU7e4CcGp9wkHYslITDGCBchTFnImhbbZ3V0knPT9Dz8Plhh4ZJ4fY2Ab0oXpYBhJcFCrV9eAfc122CAo4EZrCoRKmxyzSM3VuT0574Wh1aCk2UB+s8je5EU8HLE9M+kgK9Dc0gU9oYHYydP8ODsIu11jHPgGmX0CA3xSru6KwBWqu7mc/7ELBsxWQcHLBy9f2dZ3/MUuSRb+YO0wEjfmdL44NCA3fwaiBLOIfiMy46zyGY6EuxHf7Pq1S6231Q5+qXM1gt1vZ7yTE8XH2iC9eOKUkfa3/JZkEqhlKROPdFEinlFBbVRmoNuzBXZbgW7UgVqT4BxynmHpwnFyWirjDJNny0Zj3pp9VPETIYhASuu/Y5HwFloAeDF0HrBrZfaoOBGmcOi4fgxKaYdFFDMYFOp2nR2EbXX/YbKcYh9WrM1G8uDWdLvhHC0jtRNLeqomNv+9stiX7g/AsGVTrTNuAuK2CdYym6WziC9KX5DkebhRaGHz8SLsHKIHT9H4hpJWjr/mw6x7dLLdbzDrnRz1J9ePX8Ds0593EiTgd7UH1g==|920
+}//u7bOfW5JeGlyt7Xs3QfcUJeys6zNbLMJRqfTaXgr+kztD+93XuwsEfaAUr0y5/s8VX15jolEbAUH3Oly+88GXlHk8nBrMO+KuvV0eQ4gSAcPZ14FmJyXAfUSD6IvxGUZ+x0fOxjftsK6na6S4PnuDvZEcLStK9SC3llZ+sY1GkeJwFIzeZIz7bzm98+Vs2/ng/sHCf7xTBYxoZm9Qj5DVy+ADAoEQnHd5vhxPDFlcN73GKvCP8bYLvk/sWC8D8yVNn6z6wSqzP2Ol6rt0nRItSUvXYs5YzKfE05qazA/0sHNzU+Vqs/sKUJkrt/QeHa1qRW2n3fsBdDYu9b0aFLveH2SYXx2xw7D5ZEzKTAa//W+BY22IfIHuYsDUbdzO+ETBuf8jxjuPz1YF3NqOGSH9OCk3Psvlrku1kLEDhIh7NfmHZUQuAVAqyqX47+FgpfK0zZjNZtZQD1a861PK/yi2d/fYVsotN1SNpLGRB3hTeiErHHYoDNF1o8tWH0UH37gZu33H/aieEzZBjIZiUj0hPEp204kyzJWuwFE4mKZ+R8VlbJHaKn41eqRFMAKVW7TwzXB+sqrYrZgLR7aWRfS2ApF4fk7t1RqBJwKwDD8qtgeco+sCfhUtJZpTg9yg485wPtKmYtFy90Uu3r6I8mkC43yKeY2Io6s+CCNJaThZGUNpQsW4KKFwmNKQL6O1KHJ13WzrVgpixFPgOwpu/Kpn32IrVV8o1nNI7iJornf93a7KMu3QdYTyyySNZmk1F/FJnWHaJJKqsMuAedgxBCUaYx/amjhCmt7BmpmRgmQ5jRMuoZoCDtL6ogZbhgPBN1D2T5F/4QwxuQYMbRp9Z8ce6z2cx3EHQvAiGoMkOCEoNnP97yJ2diBELbFT+Qa+mo2n332Jp3eojodC07fT4FqmA==|920

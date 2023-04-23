@@ -1,0 +1,226 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 412.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 14.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 140.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 14.0
+        }
+      }
+    },
+    "Count": 11
+  },
+  "Values": {
+    "1,1": "返回"
+  },
+  "Formulas": {
+    "1,5": "PageTitle"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "返回",
+        "TemplateKey": "_RS_Main1",
+        "Icon": {
+          "Name": "Arrow/291_left_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "微软雅黑",
+        "Bold",
+        "Background 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,5": 1,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 5,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,3",
+    "4,0,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "eaee5e0b-67ca-41b5-96ee-cf36c7a0c737",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Accent 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "328,48",
+      "BoxShadowString": "0 2 0 5 Text_1_50"
+    },
+    {
+      "Name": "48477681-36ec-4b80-935e-ed692d8887fc",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,48",
+      "Size": "328,420"
+    }
+  ]
+}//SIgqnhQKXFAcoPPC9rCEfFbR79L00RIg0NMq7AGHWCK3Bk0uPJN1QMr4wkkze9H8DkeSx1DWzPb6tFI2iaK6gkmbW9hyk71mUHxAko5xWSk3dtV9GsE/JfRJqbumMi5yfyfWTnLSOWh/6u83EOyOvx5S2DAoripaYt3cGaOLWA5R10KR/ZDCNNEb+g/8QITF4sXBZ1YHAxGIMnpHmpBwxDmA2vQdSc5D/e86ohCIrTguNC7lo7mU70j4VmURkQqMCuZJfJvTnLfelz/ynDFI52oVrqjQhGFiV4TIGalmRggDJDM1c0FoBx94nf0FGHy+qAJhG9gjefFen6lNPbLoTcEUTR3GSC1gc0qhQJ2w6g2DvcRaPqOIRP8KNohtpol4vHDa0C34wq+Q80+1HoANvNMOTM/UZxBUwPcN9p67o83XL6Jy8nBVJUGWAL+3Xgsdu56NkMa8iqLG8KxGqTNU9AmxXt6mibGjpYATRsMalxUYxSwoPsi0UX6Au4TVVomb3tAHz9De8iALky4FtpPP8ZrSDUCyAEwbT+EYLPsfQ3StIyLb8yQgdzMGcrItcp/+TflHoP2aAxW62SvwTOMuQNMYhRk1U6a3lFtWkdG6wZ2FMJCZj8ac567jgaq9tz8DXKdpnzJFoyz2jDUYV7kz24bLU1fWoPzvBORQl8rrTdS7ctKyD43vD739BW6EbH082nGbLsiU/PUhB0Ja2Jrbt+dHHnAuHxc68GIl/7TwgSGlpKjaVWnMNXGTBNN/RVryDvZg/Y7lagi1CT3xskG4Is9GuIDZddnLqeLicgGRHFaOxaNf/hGFP0t7gzRHpTUHe/0nYk6PH8wU+h0r/bIUEWeyGNIPKxs+TOL+Uo/yjf6RdOcA6etz+63BRZswRmwCcQ0QpLAEr6iwv2PihW1pow==|920

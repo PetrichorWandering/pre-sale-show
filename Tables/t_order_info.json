@@ -1,5 +1,5 @@
 {
-  "Name": "物品表",
+  "Name": "t_order_info",
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -9,7 +9,7 @@
       "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "ID",
-      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -21,65 +21,91 @@
       "AutoGenreatedIDSetting": {
         "Composition": [
           {
-            "Content": "WP"
+            "Content": "DD-"
+          },
+          {
+            "ComponentType": 2,
+            "Content": "yyyymmdd"
+          },
+          {
+            "Content": "-"
           },
           {
             "ComponentType": 3,
-            "Content": 5
+            "Content": 3
           }
         ],
         "IgnoreConflictWhenSave": true
       },
-      "Name": "编号",
+      "Name": "order_no",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.ImageBindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "customer_id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "图片",
+      "Name": "order_name",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "名称",
+      "Name": "order_type",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 190,
-      "Name": "品牌",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 190,
-      "Name": "单位",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "varchar",
-      "MaxLength": 190,
-      "Name": "类别",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "time_signing",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "double",
       "MaxLength": -1,
-      "Name": "价格",
+      "Name": "time_limit",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "double",
+      "MaxLength": -1,
+      "Name": "total_amount",
       "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "备注",
+      "Name": "order_status",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "remark",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.FormulaColumn, ServerDesignerCommon",
+      "Formula": "[time_signing]+[time_limit]",
+      "Name": "etc",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.FormulaColumn, ServerDesignerCommon",
+      "Formula": "YEAR([time_signing])&\"年\"&MONTH([time_signing])&\"月\"",
+      "Name": "month",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -106,18 +132,37 @@
       "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
       "AggregateFunction": 1,
       "DataColumnName": "2E642EE9-F6EF-4275-8952-5C6BF1AD41DC",
-      "Name": "个数",
+      "Name": "count",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.StatisticColumn, ServerDesignerCommon",
+      "AggregateFunction": 4,
+      "DataColumnName": "total_amount",
+      "Name": "gross_income",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
   "ExternalDatabaseInfo": {
     "AllowModifySchema": true,
-    "ConnectionId": "tencent",
-    "SourceTableName": "物品表",
+    "ConnectionId": "gerald-env",
+    "SourceTableName": "t_order_info",
     "SourceTableSchema": ""
   },
   "PrimaryKey": [
     "ID"
   ],
-  "Relations": []
+  "Relations": [
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "t_order_customer",
+      "PrimaryColumn": "ID",
+      "ForeignSchema": null,
+      "ForeignTable": "t_order_info",
+      "ForeignColumn": "customer_id",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    }
+  ]
 }

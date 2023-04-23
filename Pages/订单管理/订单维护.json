@@ -178,8 +178,8 @@
   "AttachInfos": {
     "2,2": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单编号",
+        "TableName": "t_order_info",
+        "ColumnName": "order_no",
         "GUID": "f42f6846-56af-4039-b2ed-8df7ccc1bb36"
       },
       "CellType": {
@@ -213,8 +213,8 @@
     },
     "2,18": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单名称",
+        "TableName": "t_order_info",
+        "ColumnName": "order_name",
         "GUID": "efd7c6ca-966e-4935-ad03-ab7e1d7a2f42"
       },
       "CellType": {
@@ -251,8 +251,8 @@
     },
     "2,34": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单状态",
+        "TableName": "t_order_info",
+        "ColumnName": "order_status",
         "GUID": "2017b8bc-6a14-4034-aa36-600fec89f888"
       },
       "CellType": {
@@ -273,8 +273,8 @@
     },
     "5,2": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "订单类型",
+        "TableName": "t_order_info",
+        "ColumnName": "order_type",
         "GUID": "c502553b-9474-44c7-8667-b62ab5059f27"
       },
       "CellType": {
@@ -295,8 +295,8 @@
     },
     "5,18": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "签订时间",
+        "TableName": "t_order_info",
+        "ColumnName": "time_signing",
         "GUID": "87754fd8-0d6b-4efe-81c5-0edf1e72807e"
       },
       "CellType": {
@@ -375,8 +375,8 @@
     },
     "8,2": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "客户ID",
+        "TableName": "t_order_info",
+        "ColumnName": "customer_id",
         "GUID": "0bbd0c82-90ff-4b5b-bbe6-174416ec1570"
       },
       "CellType": {
@@ -386,29 +386,29 @@
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
             "ParameterName": "客户信息",
             "TableValue": {
-              "TableName": "客户信息",
+              "TableName": "t_order_customer",
               "TableValueType": 1,
               "BindingInfos": [
                 {
                   "BindingInfo": {
-                    "TableName": "客户信息",
-                    "ColumnName": "联系人",
+                    "TableName": "t_order_customer",
+                    "ColumnName": "contact_person",
                     "GUID": "025d94fd-17a7-40bc-8bfd-1dbf577d4afd"
                   },
                   "ColumnName": "联系人"
                 },
                 {
                   "BindingInfo": {
-                    "TableName": "客户信息",
-                    "ColumnName": "联系电话",
+                    "TableName": "t_order_customer",
+                    "ColumnName": "phone",
                     "GUID": "2c14a256-83ea-4203-b0ae-6e2d4592b8e4"
                   },
                   "ColumnName": "联系电话"
                 },
                 {
                   "BindingInfo": {
-                    "TableName": "客户信息",
-                    "ColumnName": "地址",
+                    "TableName": "t_order_customer",
+                    "ColumnName": "address",
                     "GUID": "d48dcfc7-d993-4043-92b3-984bb5b4703b"
                   },
                   "ColumnName": "地址"
@@ -417,7 +417,7 @@
               "SqlCondition": {
                 "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                 "ColumnBindingInfo": {
-                  "TableName": "客户信息",
+                  "TableName": "t_order_customer",
                   "ColumnName": "ID",
                   "GUID": "8209b9c4-c629-42e1-bc79-e23c2c92136c"
                 },
@@ -427,7 +427,7 @@
                 }
               }
             },
-            "ID": "1146174be1bb4884959e679a41b74066"
+            "ID": "94727220b93c4099a56a2b576487f118"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -479,7 +479,7 @@
                   "value": "userInput"
                 },
                 "CommandList": [],
-                "ID": "84483219-48eb-4e33-9d37-f006ccb17645"
+                "ID": "d5311c1d-5296-4968-8a92-3a34fada5bda"
               }
             ],
             "Disabled": true
@@ -524,11 +524,11 @@
         ],
         "bindingOptions": {
           "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
-          "TableName": "客户信息",
+          "TableName": "t_order_customer",
           "BindingInfos": [
             {
               "BindingInfo": {
-                "TableName": "客户信息",
+                "TableName": "t_order_customer",
                 "ColumnName": "ID",
                 "GUID": "75256f48-cee4-4270-8ff0-653540638c51"
               },
@@ -536,8 +536,8 @@
             },
             {
               "BindingInfo": {
-                "TableName": "客户信息",
-                "ColumnName": "公司名称",
+                "TableName": "t_order_customer",
+                "ColumnName": "company",
                 "GUID": "00abd64d-c056-40f4-a329-8c26c846db00"
               },
               "ColumnName": "label"
@@ -555,8 +555,8 @@
     },
     "11,18": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "备注",
+        "TableName": "t_order_info",
+        "ColumnName": "remark",
         "GUID": "806c4899-79a2-45f5-9976-8cf5a5febe19"
       },
       "CellType": {
@@ -588,22 +588,22 @@
     },
     "14,2": {
       "BindingInfo": {
-        "TableName": "订单表",
-        "ColumnName": "总金额",
+        "TableName": "t_order_info",
+        "ColumnName": "total_amount",
         "GUID": "26207acd-df9e-45bd-8fad-55c64d449cff"
       }
     },
     "18,2": {
       "ListViewInfo": {
         "Name": "表格1",
-        "TableName": "订单详情表",
+        "TableName": "t_order_details",
         "RowIndex": 18,
         "ColumnIndex": 2,
         "RowCount": 6,
         "ColumnCount": 47,
         "DetailListViewInfo": {
-          "ColumnOfDetailTable": "订单ID",
-          "MasterTable": "订单表",
+          "ColumnOfDetailTable": "order_id",
+          "MasterTable": "t_order_info",
           "ColumnOfMasterTable": "ID",
           "DataCommitType": 2
         },
@@ -620,31 +620,31 @@
     },
     "19,3": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "物品",
+        "TableName": "t_order_details",
+        "ColumnName": "product_id",
         "GUID": "c98bf39c-a746-491f-aea4-c212ddf28bc3"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "DropdownButtonModeInListview": 2,
         "IsBounding": true,
-        "DataSource": "物品表",
+        "DataSource": "t_order_product",
         "ValueColumnBindingInfo": {
-          "TableName": "物品表",
+          "TableName": "t_order_product",
           "ColumnName": "ID",
           "GUID": "500026a6-c556-42e1-9148-2018b0250735"
         },
         "DisplayColumnBindingInfo": {
-          "TableName": "物品表",
-          "ColumnName": "名称",
+          "TableName": "t_order_product",
+          "ColumnName": "product_name",
           "GUID": "474f6b40-f0a5-42c2-87cd-26ea36ab5b4d"
         }
       }
     },
     "19,26": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "数量",
+        "TableName": "t_order_details",
+        "ColumnName": "quantity",
         "GUID": "1bb75aa6-8207-42cc-86d9-ac26c4e0e31d"
       },
       "CellType": {
@@ -660,8 +660,8 @@
     },
     "19,41": {
       "BindingInfo": {
-        "TableName": "订单详情表",
-        "ColumnName": "备注",
+        "TableName": "t_order_details",
+        "ColumnName": "remark",
         "GUID": "58e1af73-b64a-4406-87c4-6b97cfaee19f"
       }
     },
@@ -704,7 +704,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "订单表",
+                    "TableName": "t_order_info",
                     "UpdateType": "add",
                     "ShowConfirm": false
                   },
@@ -716,13 +716,13 @@
                     "Offset": null
                   }
                 ],
-                "ID": "802bd07c-e2e8-46bf-8d77-19e3da3656d5"
+                "ID": "150655e2-d25c-4dca-aeba-4c1135942e80"
               },
               {
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "订单表",
+                    "TableName": "t_order_info",
                     "ShowConfirm": false
                   },
                   {
@@ -733,7 +733,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "4b4dc2ca-7602-433c-a129-73f7aed5ca17"
+                "ID": "a228e75f-faa0-4f34-856e-491012355184"
               }
             ]
           },
@@ -1617,4 +1617,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//UI+2hWuqHdv7nUFRGnsWPY6pDiSzkO6LgEzFfnPflccw5LTLPtS2Vs1b32rFxttB1NY3j9oXFqWOQAMgjy8ocr06w7HS5xX1pK2PhbotCZV3fZUpmcNYf8oqwUawOJ63+EFyADfE1xlctio0yl/kFwpTzAXILdSgPU+kN+q4TGLPXB1ejMs5RHkKHaBIZLzdWW5emlLKIcGY3n2vrJy3mtuvHFPlDaPKUUWoryDkElxd8RhWMMhJKoayZO6SVvSpKXO10HFIrDSrulkQhzluYzPQr+0j3GJ0NxtZ1Y2Tw3RVESADd2r9oS80rlCLWpQuJZ2kWM32gGImECCiVN8LAA7Jhc7v3EX8F8qp/3+D4PUuTwXnM+m6iqOJBv1prO3KGlyIwJziyIMwI8sCN/0R1Nkxw9CRqqUlgFmYYEUhxHkLXcj0uj1yLW5OdvjE7OeoC56E4jkUxUAh//ozfsnZIXYuuWjnrQuG9er0oXLzjztMYzsMu4gizTdkqIh37xlw/0iciZHbeDXUlM1EkBQt36jATNmj9qbxUsJsF1VjAZLPCwQqsXKz3UhBC8yGg4/nHfNEe5Tt0oVeZEA3SjJZMekhhFSBGN4UCi15FHcavxh/5v8OFXt2pCkhgse7WkR3Ajk3mFrSQZ8z9G462neboQcw07IigECmh3KbV1dI3yWZKUBh2kL31ghrQiTNweI+1H3UXnJ1Gm1mdvISqgKvY9Z1iXg3VFUWXXxCAIJwhZolIV/9YlGvVh5l9KJL9gPP3ZW8y0IXVRi4dTgQlv3EZ30wxPzgkEj2+UJ8q2HfKeW389oT2QnMbd6qAKUMiWIfR6jsXXIl1RlELInHpmYHv4eoNQGVcmBefSAFTe8O+GDiX324KKHE41T0A5CpiG1IO3MQS3hjmOxLzkBcBa9p1Q==|920
+}//OdaUFVRPjEFYYoKPWwpnKpbXcMAWbHakNfvZ0cGDvqitzThJk7x3ChsxxVBVVxfEEjOutsbZSJlORKze40ucyUmkSm1Km7a40Y2KVtahWHavGH/zqIDFFks0g9yDNg9C8XFBg7s8PNtzn4PFyZgziS9/usZJymZRUTBarzFxhEkxP63GuW15OEyF1niOcgbCf7zW6d3e4c3aZ13vRkiFtbhox8KTNK1NNbmx6H0DTi6FlQmCtXud17UmchE/8lk0FiA5/j66Jt9g/Sly7HNgesO4fUaPMB9Qg/kSpa8J7If3zfOu67RY29+B9v0mdE2QznTVNHt4HCe7YrtEg816SSalZjllwfFt+6zNKr1cinmeKycFffYR4/70IOA0uPWzwnzitJnDr2ecQfMqC+l8x/GYX09qGBCU3U118IQaSPOe18TzHz8kGJa7lbb6rDGugvIVJMsEIGGjHn7nFOnyBvz5Q+wdUpQ8VLEsd6++XzjHDRaFBh6dFDungR2t+589kUa99mjACuyhY+Ocpd/HWGBW9bYl8Sc6Q3kHqgT4nOgj6+kVXfWDtprQOZwGYGUp6VDtNI+9IaBPp0jUrGUXSLaTmUVNCLBdS7Cs9/CyuWW0YXyIRRVKs6xBK4kvh2o4hJCwDXkWzReZw/1ZFZ0+hB1ZFGNTbNloBdVtMUYcUXKr8nnvWp5vTE8u6Agowk3QIvQCjjr8Rg06alchbzFugCFWR81fOK9RuRLYXMRJuRAGA6B5zWWUOWW23OlzVRMPF0l36sdCT8remc5f5gH0paWiGye67mRysx12CFNSIhdaLXy4yE5FQmeJPs24m7bdHm1YorNJ41BedUghSezToRx9sC3GpwmwBtPIJKmupxw8JiF3A209TiF1KjUQby3HWmiYkX3xc5kA1vaZVzIsaw==|920

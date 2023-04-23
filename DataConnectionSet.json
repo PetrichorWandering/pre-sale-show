@@ -1,12 +1,7 @@
 [
   {
-    "ConnectionString": "Server=localhost;User ID=root;Password=Curtain8848;Database=show_demo;Port=3306",
+    "ConnectionString": "Server=petrichorwandering.cn;User ID=geraldzhang;Password=Curtain8848data*;Database=presale_show;Port=3306",
     "DataBaseType": 6,
-    "ID": "localhost"
-  },
-  {
-    "ConnectionString": "Server=49.235.236.234;User ID=root;Password=JosephWang;Database=gerald_show;Port=3306",
-    "DataBaseType": 6,
-    "ID": "tencent"
+    "ID": "gerald-env"
   }
 ]

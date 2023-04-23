@@ -481,7 +481,6 @@
     "1,68": "%PageName%"
   },
   "Formulas": {
-    "0,12": "IF(COUNT(FIND(\"采购\",BQ2)),\"采购汇总图(按物品)\",IF(COUNT(FIND(\"销售\",BQ2)),\"销售汇总表(按物品)\",IF(COUNT(FIND(\"出入库\",BQ2)),\"出入库汇总表(按物品)\",BQ2)))",
     "3,0": "BQ2"
   },
   "AttachInfos": {
@@ -530,7 +529,7 @@
                       "DeleteCachedQuery": true
                     }
                   ],
-                  "ID": "20252a0c-57a7-4d3f-9fce-4258ef31ea3f"
+                  "ID": "849793ef-889d-4dd3-b6de-84d1b44939a0"
                 },
                 {
                   "Condition": {
@@ -564,7 +563,7 @@
                       "DeleteCachedQuery": true
                     }
                   ],
-                  "ID": "90aa7ba2-3792-47d8-b1c2-c4c28f422998"
+                  "ID": "712a3dd3-427c-4950-8e1f-df4190828ad6"
                 },
                 {
                   "CommandList": [
@@ -576,7 +575,7 @@
                       }
                     }
                   ],
-                  "ID": "5df68e26-083b-4347-8371-e593c4badb49"
+                  "ID": "809b3d5c-5671-49d7-bd25-f28cd27b961f"
                 }
               ]
             }
@@ -599,220 +598,8 @@
         "options": [
           {
             "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "首页",
-            "label": "首页",
-            "icon": {
-              "Name": "Navigation/165_home_3.svg",
-              "BuiltIn": true,
-              "Color": "Background 1 -25",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "FGC_LoginUser"
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "库存管理",
-            "label": "库存管理",
-            "icon": {
-              "Name": "Application/150_paste_2.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "Administrator",
-              "库存管理员",
-              "仓库主管",
-              "采购员",
-              "销售员",
-              "采购主管",
-              "销售主管"
-            ],
-            "children": [
-              {
-                "value": "物品_库存",
-                "label": "物品库存",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管",
-                  "采购员",
-                  "销售员",
-                  "采购主管",
-                  "销售主管"
-                ]
-              },
-              {
-                "value": "出入库列表",
-                "label": "出入库管理",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "盘点页",
-                "label": "库存盘点",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "销售采购",
-            "label": "销售采购",
-            "icon": {
-              "Name": "Navigation/181_cart_1.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "Administrator",
-              "销售员",
-              "销售主管",
-              "采购主管",
-              "采购员"
-            ],
-            "children": [
-              {
-                "value": "采购单",
-                "label": "采购管理",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "销售单",
-                "label": "销售管理",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "销售员",
-                  "销售主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "来往单位",
-            "label": "来往单位",
-            "icon": {
-              "Name": "Mobile/419_share_1.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "Administrator",
-              "采购员",
-              "销售员",
-              "仓库主管",
-              "采购主管",
-              "销售主管",
-              "库存管理员"
-            ],
-            "children": [
-              {
-                "value": "供应商_客户",
-                "label": "客户",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "销售员",
-                  "库存管理员",
-                  "仓库主管",
-                  "销售主管"
-                ]
-              },
-              {
-                "value": "供应商_客户",
-                "label": "供应商",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "库存管理员",
-                  "仓库主管",
-                  "采购主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "流程中心",
-            "label": "流程审批",
-            "icon": {
-              "Name": "Application/156_processCentre_1.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "FGC_LoginUser"
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "报表中心",
-            "label": "报表中心",
-            "icon": {
-              "Name": "Chart/363_column_chart_2.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
-            "CanVisitRoleList": [
-              "FGC_LoginUser"
-            ],
-            "children": [
-              {
-                "value": "出入库汇总表(按物品)",
-                "label": "库存报表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "销售汇总表(按物品)",
-                "label": "销售报表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "销售员",
-                  "销售主管"
-                ]
-              },
-              {
-                "value": "采购汇总图(按物品)",
-                "label": "采购报表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "帮助手册",
-            "label": "帮助手册",
-            "icon": {
-              "Name": "Application/045_search_6.svg",
-              "BuiltIn": true,
-              "Color": "#c0c4cc",
-              "UseCellTypeForeColor": true
-            },
+            "value": "结点1",
+            "label": "结点1",
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ]
@@ -886,194 +673,10 @@
         "options": [
           {
             "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "采购报表",
-            "label": "采购报表",
+            "value": "结点1",
+            "label": "结点1",
             "CanVisitRoleList": [
-              "Administrator",
-              "采购员",
-              "采购主管"
-            ],
-            "expend": true,
-            "children": [
-              {
-                "value": "采购汇总图(按物品)",
-                "label": "采购汇总图(按物品)",
-                "CanVisitRoleList": [
-                  "采购员",
-                  "Administrator",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购汇总图(按供应商)",
-                "label": "采购汇总图(按供应商)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购汇总表(按物品)",
-                "label": "采购汇总表(按物品)",
-                "CanVisitRoleList": [
-                  "FGC_LoginUser",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购汇总表(按供应商)",
-                "label": "采购汇总表(按供应商)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购明细表",
-                "label": "采购明细表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购价格走势图",
-                "label": "采购价格走势图",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              },
-              {
-                "value": "采购入库流水表",
-                "label": "采购入库流水表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "采购员",
-                  "采购主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "库存报表",
-            "label": "库存报表",
-            "CanVisitRoleList": [
-              "Administrator",
-              "库存管理员",
-              "仓库主管"
-            ],
-            "expend": true,
-            "children": [
-              {
-                "value": "出入库汇总表(按物品)",
-                "label": "出入库汇总表(按物品)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库明细表",
-                "label": "出入库明细表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库流水表",
-                "label": "出入库流水表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库_领用出库汇总表(按部门)",
-                "label": "领用出库汇总表(按部门)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库_领用出库明细表",
-                "label": "领用出库明细表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库_销售出库明细表",
-                "label": "销售出库明细表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              },
-              {
-                "value": "出入库_物品毛利率统计表",
-                "label": "物品毛利率统计表",
-                "CanVisitRoleList": [
-                  "库存管理员",
-                  "仓库主管",
-                  "Administrator"
-                ]
-              },
-              {
-                "value": "出入库_收支情况表",
-                "label": "收支情况表",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "库存管理员",
-                  "仓库主管"
-                ]
-              }
-            ]
-          },
-          {
-            "$type": "ElementUI.MenuNode, ElementUI",
-            "value": "销售报表",
-            "label": "销售报表",
-            "CanVisitRoleList": [
-              "Administrator",
-              "销售主管",
-              "销售员"
-            ],
-            "expend": true,
-            "children": [
-              {
-                "value": "销售汇总表(按物品)",
-                "label": "销售汇总表(按物品)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "销售员",
-                  "销售主管"
-                ]
-              },
-              {
-                "value": "销售汇总表(按客户)",
-                "label": "销售汇总表(按客户)",
-                "CanVisitRoleList": [
-                  "Administrator",
-                  "销售员",
-                  "销售主管"
-                ]
-              }
+              "FGC_Anonymous"
             ]
           }
         ],
@@ -1275,7 +878,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "30900e28-3e5c-414a-9529-f88188b83e1c",
+      "Name": "25931e18-9ba2-4da8-a3d5-abe7c4827c49",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "Fill": "#FFF0F2F5",
@@ -1289,7 +892,7 @@
       "Size": "1360,8"
     },
     {
-      "Name": "048b233b-3aab-4c63-939f-656c6b4054c1",
+      "Name": "5f839da1-abf6-4a34-a360-4a5d25bc276a",
       "DisplayName": "顶部banner背景",
       "StyleInfo": {
         "Fill": "#FF1479E9",
@@ -1302,4 +905,4 @@
       "BoxShadowString": "0 2 0 5 rgba(0,0,0,0.5)"
     }
   ]
-}//3FkD743fbhQZ9datxHX+Ec7/4JB6J9BkLb3fyAQ5vKgo3Ie1euM/T4g1YgyjV3eImXxiwJ0N9FjjdiVGZcelGT4ON9uhKLzNbh9KX1PfnRpAaRBEKsIINnqz9q9ZK4rk9WBL+7Lzng8QxKo9CwV7e0E3wMzjJmTfCHhxmfeRKcP9pw6hOgcYksy2799iIjPIHhjuSfKy/c8OJKnz07c4C77qqZKwJQfpHmnsU74uPLWnRFkA4UXDm6u8CUriyETLmu6MpbVYvrWWWdTH+qux/djOPIsvnWrjnz8N70cGzqCyjQbwjwFi6KbydAdmCUbwQYp4jPrQAr2tlvxyR04i/Gxsf7IGHqxN/uH7FMqqmjSXDFItWRWY9fl8xtJLj9F1VEuQkytwdNeIoqatDYSaI+Qu0MexSfpR7Z7k1Rzq+L5ywxRBvkh59bdBjy4Fk0ogWkAln9P0iz0hVcIe5Zo7qHvoNPD0fThWTEbZAdrvuBNnECDayF4YAlhW1ftDzR5txNwOu4lFgdC+3k/Wn3mhrhe8nTpycbKgVlMsWC7wrskUjIeQl2e/Zl6wwRGaOJXQ+gDuMpLUnvodT6IELnnU2ME07VDbB+LQpI4lchwMVra5DXDZ36Xp7XpUeXBLcPC0LKLREv3AEEJGw3G8wpkjypbv70aYwEKp7HkH+9U4cOjAlSZ0YEPKxol8PfEVe/DGbiA5ZMTmzaoetIFbEgYlN4nSb50HhH/O7F0QBgG+DF6y7lxHJdXcMqTsdztuM2FHgOJK/YF+R2amvDIgGhK37oxSxH2AS8T1YOWM8JLWRO0/T4vyrO1U0zhP7Ut1hV5mLbTMOxOZnzqzvIuchNu85GocOV1MSyPm0eIz2hBT4O6AiUKdhCXz8uVqQlfcr5L0AKBqqy8ckaFke4MTrGPqxw==|920
+}//Pv7eT0OcDBXIJ+HNrB9UY6pplywTgeoEY+ZR9bXVadcr1W+6NxJcuJyMptdbi0RtGOllg3ArXvS49Q9HxRrVO4eNauTQ9CUOFOzYy+wo0THUeokTg8kMUpUjRphhFIAKQEeXNuHgUJMk5sTLbuyinfhTC6iuFWJbzIcSchrK3P0hSyw/Bf1UFSA+30oEkfX0N8z1IYkYHysS/fueDGyTWkb9eHT+N/VhfPYFGdmMB9y8NQdy+mGQgDAUJB9NPpGAaM9tjWIpUjggJ/lM1+4ZsAicHp9qCdbGVvaPLNixDf36nrHb1BCUSNLNg4j4Mk6lMr17fcC/Q+kMlqCrgrKekvywlXvS4iD4s777p/VlAm8d8Yu+IWSxCbHT/zP6QCjnqkmprQbNH5d1vB8NxfGX4GDcRsGNs/iwqH7BgJjoBCRqAIpILEnH1HvGeXwoCWfKo3zOPxRtZuz4SMXMlHdPLxq33su1UPXrtFOrnxmlvCBVtSw8bUTdr2jq7aDfdlZlyjfNOgWEwDHDHAt/yjBEMx9WqI2DWuMnj93cAO+pvrOxtTqn0ZB6iijlPbxicRt7EiIy+X+ZtSh3Z/xQIu+uufXlenFmkakI/G341Z6Jzj/aG0YKVGTYCPni7fj+jG12ctOlZfFtnP3ZYHJloRByW+9bVr7FmaI1rrCO3/S0i/Mde/8A1V3+kyMim5FtfFE968HgdniyI9PFVGWcWXNYkkYN1ijrPfiUkdfIIjcRu8HDS3fDXOa4hFOhMf2h7v1P2bGXYED97+gZRcYCG7fLeXImKqeUrbIPAbnMotzds5RhX1xuEH11EcqoPEd0vuWWAriRwZx0OzFZ3NIkXAZwYpmHnsYoHrN0RSDSRz7MDrkT5LqQgIOqVl9mML2Q6GfgIxu1QP6fGnLWlB5CCCLQuQ==|920

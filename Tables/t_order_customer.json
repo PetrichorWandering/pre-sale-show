@@ -1,5 +1,5 @@
 {
-  "Name": "订单详情表",
+  "Name": "t_order_customer",
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -9,34 +9,56 @@
       "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "ID",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "bigint",
-      "MaxLength": -1,
-      "Name": "订单ID",
-      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "bigint",
-      "MaxLength": -1,
-      "Name": "物品",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "数量",
+      "Name": "company",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
       "MaxLength": 190,
-      "Name": "备注",
+      "Name": "province",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "city",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "address",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "contact_person",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "phone",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 190,
+      "Name": "email",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -62,35 +84,12 @@
   ],
   "ExternalDatabaseInfo": {
     "AllowModifySchema": true,
-    "ConnectionId": "tencent",
-    "SourceTableName": "订单详情表",
+    "ConnectionId": "gerald-env",
+    "SourceTableName": "t_order_customer",
     "SourceTableSchema": ""
   },
   "PrimaryKey": [
     "ID"
   ],
-  "Relations": [
-    {
-      "PrimarySchema": null,
-      "PrimaryTable": "物品表",
-      "PrimaryColumn": "ID",
-      "ForeignSchema": null,
-      "ForeignTable": "订单详情表",
-      "ForeignColumn": "物品",
-      "RelationTypeOnDelete": 0,
-      "RelationTypeOnUpdate": 0,
-      "IsDetailTableRelation": false
-    },
-    {
-      "PrimarySchema": null,
-      "PrimaryTable": "订单表",
-      "PrimaryColumn": "ID",
-      "ForeignSchema": null,
-      "ForeignTable": "订单详情表",
-      "ForeignColumn": "订单ID",
-      "RelationTypeOnDelete": 0,
-      "RelationTypeOnUpdate": 0,
-      "IsDetailTableRelation": true
-    }
-  ]
+  "Relations": []
 }

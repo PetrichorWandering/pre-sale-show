@@ -131,8 +131,8 @@
   "AttachInfos": {
     "2,2": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "编号",
+        "TableName": "t_order_product",
+        "ColumnName": "product_no",
         "GUID": "a36f853c-43fa-405f-9403-c7b118c7e170"
       },
       "CellType": {
@@ -166,8 +166,8 @@
     },
     "2,19": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "名称",
+        "TableName": "t_order_product",
+        "ColumnName": "product_name",
         "GUID": "e21da039-3e8a-4cf6-94df-cf9ec9110a9c"
       },
       "CellType": {
@@ -204,8 +204,8 @@
     },
     "5,2": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "单位",
+        "TableName": "t_order_product",
+        "ColumnName": "product_unit",
         "GUID": "787e77e9-30c5-4100-8cdd-b408df0f3f34"
       },
       "CellType": {
@@ -241,8 +241,8 @@
     },
     "5,19": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "类别",
+        "TableName": "t_order_product",
+        "ColumnName": "product_category",
         "GUID": "d47cbdc2-8c7f-482e-995f-9997817061c5"
       },
       "CellType": {
@@ -299,8 +299,8 @@
     },
     "8,2": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "品牌",
+        "TableName": "t_order_product",
+        "ColumnName": "product_brand",
         "GUID": "38cac443-9f51-498f-9a59-4d9d49c7c4cf"
       },
       "CellType": {
@@ -332,8 +332,8 @@
     },
     "8,19": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "价格",
+        "TableName": "t_order_product",
+        "ColumnName": "product_price",
         "GUID": "4d6d829e-a8f0-41da-babb-6c3c1de2d0d9"
       },
       "CellType": {
@@ -372,8 +372,8 @@
     },
     "11,2": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "备注",
+        "TableName": "t_order_product",
+        "ColumnName": "remark",
         "GUID": "9565d8e5-a9de-4ceb-b477-ef8deda7e6c4"
       },
       "CellType": {
@@ -409,8 +409,8 @@
     },
     "11,19": {
       "BindingInfo": {
-        "TableName": "物品表",
-        "ColumnName": "图片",
+        "TableName": "t_order_product",
+        "ColumnName": "product_pic",
         "GUID": "b6fb1fa6-1837-4f2a-baed-37fb9c5bac37",
         "IsImagePath": true
       },
@@ -444,7 +444,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "物品表",
+                    "TableName": "t_order_product",
                     "UpdateType": "add",
                     "ShowConfirm": false
                   },
@@ -456,13 +456,13 @@
                     "Offset": null
                   }
                 ],
-                "ID": "c3dd4020-80cf-4d44-a2af-35a1be51289c"
+                "ID": "482ae5e6-9f20-4829-a227-21b973f96e1b"
               },
               {
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "物品表",
+                    "TableName": "t_order_product",
                     "ShowConfirm": false
                   },
                   {
@@ -473,7 +473,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "a2983718-838c-4ffd-9f7b-a5553d45b7ea"
+                "ID": "0e26d7ca-70b6-4696-8a27-417482633a98"
               }
             ]
           },
@@ -1000,4 +1000,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//daYJete83DpMmsPinnOcmWu+qRE4tnldUeBhIMDjPYj6IUsO3QYhlQDClf2CjZQO6BpKsn8sPd5XZtdpw1AkjEb9OwjmdRtRejyFKuzOJ4u1dyC0lt0jIG3OrJDdC79OG6SlQ+F7eoMOh62tAkIKVzb0v+8prP0du++bFEZoNoeeWyl4PaHNc/8q40G6w84sq0Ow4V/55+0KYigZNHc8Dha3+tB8zGLTnOk42JAE7BDTR/4tHRIyFnUJSfmAx/QecP/lR4HUh+yO7wJEzHVtP4nw1RLHNsAgua8cm51YwmRKWirIgmM4AAY+ZAv1fRf8+k/03GPavxMKaKR3xKpS1D4rNxoqge/OZFh0zMIS1J8x/OGHm9FMUBX58cYOQEB2nILIaPZMWEoaKPFi4UDdojlSY2mJG8M0egtKBPkw+oKqgsDkuUG2+F0p1WwWIA2RheQ8efb4VGGp3cAc6L+n2hjAhc9gOFaoVnUMybquaDE+6ae6KiFrPodf//vnyxqg8NOmOo1Kylt6kgocDW/AV9ljClV7g0Yc0ihLKj/fS2QREQ0Q7zR5oH4OjpEz2ASApI3QS3fgjuUVxlZOAyPDdt6rLeXSX6rm4RC2ibgvBy1Y8+0ozz1z242+OoUgzbmgQdIfd+bGhDUGSac9pC6wQwLYAJI2f6pUkC08GupcnBU5g8hqI1fc3hbcH7ZJKbkH9sS4yXJmqkThj66WUtBEaEXGGACMTuSpl76k6A+HldYKGgmxQRJO4RJhYzfkmiFbs2G9OCAakR1pfvoen+37wlZA21yNP1Zk6lPxmtusE2QZrrI3I5ZL6npE52zPoC0MMJJAKWJT7WyUJR2sEao32pbyN3QDSDjFFNhHCflH9z1MbuqfQi+x2wHS6hgzvSABnoD7OCGBXZ8/1c5PeEubLg==|920
+}//2Z9cYI1lTwbzwRQFgNjFo63x8RrxIymX0x8jCrhMICyJUkBmv2vBC9XzYLui3aTtE+55kClKEt/sxfZmwyi6l9y5GYV+vp0PVmQEHgl/9gv7A9aa+ZvMyw9Qha34eHDzPgupqyeUlpekrKyYneUjFWSBIiHwFgXP8btAE6Rw4HOFe4QZ5zLeKrNlY7vqLBRj6NFqCyGGTZspU8Z5OfU7fJTWYOynh40fXDwAfCmEfaVyV4iHLGRX2v7YyH8eCRbwa+7MaHzfXlSwLaKCk/nmkD4LNWKAoFp1ObBcTKjDWynrzDRreHdiequr0M3r/AAPd995OkRgxjKyOIAvnS2E9sukVH0Aaw5WIQjIuyWnFdVvjcTcYNCSaczx40NkrimDehsL250sjUo4jjKhRCOaquy3XsNqvHgDrQMBvdtncLowBplfnV7WYIsOgf1EtXuWk2IeIXUHvGoqX0eHBrDKNJln2A0nTrbRuTcQAcZY3AjWe+AfgBo99X3DTKUforqDpRk7BHzKLgU3uYVFIkWIDKNsd+hAhFJ2/hyEj7eJrIMe3gP1gjhT6ZONJue+K2P/8Jes4FCBbOJLIepEGo/M4xCf6NRkkK1OL+sqgO8SnZTE6VVoSoCVr6vunR95ngZ21i3l7dTXTw6jqLtI/dKju8JAd6klL1vHwfq4duOeVNf50uMtMfmc8pSVCdgecJoxT4sFEACJeeyCXsUv5eGVkIJ4YcJM2+5raVh2/HrOI6xlnHF+kCgpsZgg7SESEqe04UkOpLcG9k6m/jAQueyEn4FhNCpW5FuZKYMQp6NPOqnodUqDdVC7ahco9atuDjAj4Ovpx2Ns4+sihHvAHN6ylhdwSLi4Dyytx6gLKvZ8rCF9AnzcaqKef2qT86gCn7l7OMyoqTnSL+pY6b8ZwcXLFw==|920
