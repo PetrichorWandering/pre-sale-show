@@ -177,16 +177,7 @@
   },
   {
     "ModuleName": "MasterMobilePage/手机母版",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:09:00.5524181+08:00",
-    "ModuleType": 4,
-    "ToRemoveFiles": [
-      "MasterPages\\Mobile母版\\手机母版.json"
-    ]
+    "ModuleType": 4
   },
   {
     "ModuleName": "MasterPages/PC母版",
@@ -230,42 +221,15 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0105519+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\内置图片\\fgc_logo_dark.png"
-    ]
+    "ModuleType": 38
   },
   {
     "ModuleName": "Image/fgc_logo_light.png",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.010576+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\内置图片\\fgc_logo_light.png"
-    ]
+    "ModuleType": 38
   },
   {
     "ModuleName": "Image/loading.gif",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0105787+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\内置图片\\loading.gif"
-    ]
+    "ModuleType": 38
   },
   {
     "ModuleName": "Image/活字格_64.png",
@@ -273,29 +237,7 @@
   },
   {
     "ModuleName": "Image/grapecity_b_32.png",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:09:12.9818245+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\grapecity_b_32.png"
-    ]
-  },
-  {
-    "ModuleName": "Image/活字格_128.png",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:09:21.8620024+08:00",
-    "ModuleType": 38,
-    "ToRemoveFiles": [
-      "image\\活字格_128.png"
-    ]
+    "ModuleType": 38
   },
   {
     "ModuleName": "UserService",
@@ -319,32 +261,14 @@
   },
   {
     "ModuleName": "Image/fgc_built-in-page-401.png",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0092203+08:00",
     "ModuleType": 38
   },
   {
     "ModuleName": "Image/fgc_built-in-page-logo.png",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0102625+08:00",
     "ModuleType": 38
   },
   {
     "ModuleName": "Image/fgc_built-in-page-maintained.png",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\GeraldZhang",
-      "Email": "gerald_zhy@icloud.com"
-    },
-    "LockDateTime": "2023-04-23T18:08:00.0102673+08:00",
     "ModuleType": 38
   }
 ]
