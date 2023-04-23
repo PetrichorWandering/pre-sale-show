@@ -249,7 +249,16 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "ModuleType": 25
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-23T17:01:07.5162735+08:00",
+    "ModuleType": 25,
+    "ToRemoveFiles": [
+      "DataConnectionSet.json"
+    ]
   },
   {
     "ModuleName": "Upload",
