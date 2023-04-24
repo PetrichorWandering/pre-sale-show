@@ -302,7 +302,14 @@
   },
   {
     "ModuleName": "Upload",
-    "ModuleType": 26
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0066486+08:00",
+    "ModuleType": 26,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "Image/fgc_built-in-page-401.png",
@@ -335,5 +342,746 @@
     },
     "LockDateTime": "2023-04-24T10:09:04.2497141+08:00",
     "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/默认菜单导航-PC-1360_768",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0066809+08:00",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0067805+08:00",
+    "ModuleType": 24
+  },
+  {
+    "ModuleName": "PCPage/状态字典配置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0067879+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068378+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/需求收集平台",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068401+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/需求收集平台/设置管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068413+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/行业字典配置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068454+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/行业类别字典配置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068488+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/侧边导航配置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068513+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/工作台组件管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068536+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/新增需求",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068559+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/需求收集平台/需求管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068573+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/需求查看",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068598+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/需求详情",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.006862+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/登出菜单",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068644+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/需求收集平台/系统管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068657+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/卡片配置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068688+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/导入文件夹1/需求收集平台/工作台管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068704+08:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/工作台",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.006873+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/需求",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068755+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/设置",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068778+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/首页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068801+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/优先级字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068886+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068901+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1/需求收集平台",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068913+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1/需求收集平台/系统字典",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068924+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "Table/侧边导航字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068945+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/状态字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068957+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/行业字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068968+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/行业类别字典表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0068979+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/系统角色表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.006899+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/工作台组件表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0069005+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/需求点赞表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0069017+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Tables/导入文件夹1/需求收集平台/行为操作",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.006903+08:00",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableView/需求点赞统计视图",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0069043+08:00",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/工作台配置表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0069054+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/需求表",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0069065+08:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "ServerCommand/注销",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082402+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082484+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommands/导入文件夹1/系统",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082499+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/刷新系统角色",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082844+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/获取导航菜单",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082858+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/获取工作台组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082869+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/需求点赞",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082881+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/导入文件夹1/需求",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082894+08:00",
+    "ModuleType": 20
+  },
+  {
+    "ModuleName": "ServerCommand/需求删除",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0082904+08:00",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "TaskScheduler/侧边导航数据删除自动刷新UI",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083449+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "SchedulerTasks/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083476+08:00",
+    "ModuleType": 21
+  },
+  {
+    "ModuleName": "TaskScheduler/侧边导航数据新增自动刷新UI",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083489+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/侧边导航数据更新自动刷新UI",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083501+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/工作台卡片删除自动刷新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083511+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/工作台卡片新增自动刷新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.008352+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/工作台卡片更新自动刷新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083529+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "UserControlPage/需求空白组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0083624+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084098+08:00",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPages/导入文件夹1/需求组件库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084182+08:00",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/需求管理按钮组",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084226+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/需求管理组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.008425+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/字典管理组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084274+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/导入文件夹1/设置组件库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084288+08:00",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/导航管理组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084324+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/工作台管理组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084348+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/消息中心组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084371+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPages/导入文件夹1/工作台组件库",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084384+08:00",
+    "ModuleType": 32
+  },
+  {
+    "ModuleName": "UserControlPage/流程组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084503+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/我的任务组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084528+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/日历组件",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084553+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/侧边导航栏",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084578+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/居中按钮组",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084602+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/居右按钮组",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0084624+08:00",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "Notification/侧边导航自动刷新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0094257+08:00",
+    "ModuleType": 34
+  },
+  {
+    "ModuleName": "Notifications/导入文件夹1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0094313+08:00",
+    "ModuleType": 33
+  },
+  {
+    "ModuleName": "Notification/工作台卡片自动刷新",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:54:21.0094496+08:00",
+    "ModuleType": 34
   }
 ]
