@@ -201,7 +201,16 @@
   },
   {
     "ModuleName": "MasterPCPage/左侧导航布局",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:06:19.499441+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\左侧导航布局.json"
+    ]
   },
   {
     "ModuleName": "MasterPages/Mobile母版",
