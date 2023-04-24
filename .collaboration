@@ -1,19 +1,55 @@
 [
   {
     "ModuleName": "Table/t_order_product",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:02:06.3702899+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_order_product.json"
+    ]
   },
   {
     "ModuleName": "Table/t_order_info",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:02:06.3702928+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_order_info.json"
+    ]
   },
   {
     "ModuleName": "Table/t_order_details",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:02:06.3702944+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_order_details.json"
+    ]
   },
   {
     "ModuleName": "Table/t_order_customer",
-    "ModuleType": 7
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\GeraldZhang",
+      "Email": "gerald_zhy@icloud.com"
+    },
+    "LockDateTime": "2023-04-24T10:02:06.3702959+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_order_customer.json"
+    ]
   },
   {
     "ModuleName": "Pages/内建手机页面",
